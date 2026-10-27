@@ -1,0 +1,47 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "31261014UEY879000139550020000880541376686057",
+      "numero": 88054,
+      "serie": 2,
+      "dataEmissao": "2026-10-17",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "14.UEY.879/0001-39",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Lacerda Nogueira",
+        "documento": "920.055.011-82"
+      },
+      "itens": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 1,
+          "valorUnitario": 39.9,
+          "valorTotal": 39.9
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 5,
+          "valorUnitario": 2.89,
+          "valorTotal": 14.45
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 4,
+          "valorUnitario": 18.7,
+          "valorTotal": 74.8
+        }
+      ],
+      "valorProdutos": 129.15,
+      "valorFrete": 39.99,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 169.14,
+      "uncertain": []
+    }
+  },
+  "ms": 4981
+}

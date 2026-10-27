@@ -1,0 +1,57 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Âncora Distribuidora de Títulos Ltda",
+        "cnpj": "88.091.392/0001-92"
+      },
+      "beneficiario": {
+        "nome": "Mariana Teixeira Lacerda",
+        "cpf": "651.564.123-00"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 5606.23
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 5299.4
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 689.89
+        }
+      ],
+      "totalIsentos": 11595.52,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 592.62
+        },
+        {
+          "descricao": "Fundos de investimento",
+          "valor": 59.42
+        }
+      ],
+      "totalExclusivos": 652.04,
+      "impostoRetido": 115.07,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 1273.89,
+          "saldoAtual": 712.99
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 21031.97,
+          "saldoAtual": 22742.03
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 5933
+}

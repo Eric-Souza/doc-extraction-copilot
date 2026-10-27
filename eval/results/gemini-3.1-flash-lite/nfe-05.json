@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "42260824137939000160550020000989201100098746",
+      "numero": 98920,
+      "serie": 2,
+      "dataEmissao": "2026-08-23",
+      "emitente": {
+        "nome": "Hortifruti Vale Verde Ltda",
+        "cnpj": "24.137.939/0001-60",
+        "uf": "SC"
+      },
+      "destinatario": {
+        "nome": "Luíza Pacheco Nogueira",
+        "documento": "266.962.320-44"
+      },
+      "itens": [
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 6,
+          "valorUnitario": 42,
+          "valorTotal": 252
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 3,
+          "valorUnitario": 42,
+          "valorTotal": 126
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 10,
+          "valorUnitario": 19.99,
+          "valorTotal": 199.9
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 3,
+          "valorUnitario": 74.5,
+          "valorTotal": 223.5
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 7,
+          "valorUnitario": 74.5,
+          "valorTotal": 521.5
+        }
+      ],
+      "valorProdutos": 1322.9,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1322.9,
+      "uncertain": []
+    }
+  },
+  "ms": 5389
+}

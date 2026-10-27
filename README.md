@@ -33,10 +33,12 @@ When a total doesn't add up, the lines that already passed their own quantity ×
 | Model | Field accuracy | Exact match | Flag precision | Flag recall | Silent errors | Planted caught | Median time |
 |---|---|---|---|---|---|---|---|
 | `gemini-3.5-flash-lite` (default) | 99.9% | 97.2% | 100% | 100% | 0 | 6/6 | 5.4s |
+| `gemini-3.1-flash-lite` | 99.5% | 91.7% | 87.0% | 100% | 0 | 6/6 | 6.6s |
 
 - **Silent errors** are wrong fields that nobody was asked to look at. That is the number to keep at zero
 - A field *should* be flagged if the model read it wrong or if it is part of a planted inconsistency. **Precision** is how many of the flagged fields needed it, and **recall** is how many of the fields that needed it were flagged
 - The one misread with the default model was on a rotated photo of a utility boleto: it dropped a zero from a run of zeros (`83660000000-1` became `8366000000-1`). The digit line check caught it
+- Gemini 3.1 Flash Lite misread three NF-e access keys and one CNPJ; the check digits flagged all four. Its lower precision is from listing correct beneficiary CNPJs as uncertain, which sends them to review anyway
 - The documents are synthetic and cleaner than real photos, so read these numbers as an upper bound. The full reports, with every wrong field, are in [`eval/results/`](eval/results)
 
 ![A phone-photo-style DANFE from the eval set](docs/photo-sample.jpg)

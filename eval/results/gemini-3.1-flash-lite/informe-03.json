@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "80.413.843/0001-59"
+      },
+      "beneficiario": {
+        "nome": "Gustavo Fontes Fontes",
+        "cpf": "802.757.317-31"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 945.15
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 231.67
+        }
+      ],
+      "totalIsentos": 1176.82,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 8869.54
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 806.57
+        }
+      ],
+      "totalExclusivos": 9676.11,
+      "impostoRetido": 1707.55,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 2103.53,
+          "saldoAtual": 814
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 51710.41,
+          "saldoAtual": 28382.05
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 5139
+}

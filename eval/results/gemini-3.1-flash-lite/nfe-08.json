@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "26260909CET839000151550010000121871488219286",
+      "numero": 12187,
+      "serie": 1,
+      "dataEmissao": "2026-09-09",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "09.CET.839/0001-51",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Ana Clara Moura Alves",
+        "documento": "268.507.219-50"
+      },
+      "itens": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 7,
+          "valorUnitario": 39.9,
+          "valorTotal": 279.3
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 12,
+          "valorUnitario": 74.5,
+          "valorTotal": 894
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 12,
+          "valorUnitario": 19.99,
+          "valorTotal": 239.88
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 5,
+          "valorUnitario": 32.9,
+          "valorTotal": 164.5
+        }
+      ],
+      "valorProdutos": 1577.68,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1577.68,
+      "uncertain": []
+    }
+  },
+  "ms": 19997
+}

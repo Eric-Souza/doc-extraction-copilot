@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Horizonte Corretora de Valores S.A.",
+        "cnpj": "72.552.517/0001-02"
+      },
+      "beneficiario": {
+        "nome": "Mariana Pacheco Pacheco",
+        "cpf": "028.857.326-95"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3131.82
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 1109.99
+        }
+      ],
+      "totalIsentos": 4341.81,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 1856.83
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 3766.26
+        }
+      ],
+      "totalExclusivos": 5623.09,
+      "impostoRetido": 992.31,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 492.06,
+          "saldoAtual": 4364.98
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 110718,
+          "saldoAtual": 32099.56
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 5928
+}

@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "31260843400584000103550030000136581311878482",
+      "numero": 13658,
+      "serie": 3,
+      "dataEmissao": "2026-08-17",
+      "emitente": {
+        "nome": "Escola Pequeno Saber Ltda",
+        "cnpj": "43.400.584/0001-03",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Pedro Costa Fontes",
+        "documento": "719.117.052-29"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 5,
+          "valorUnitario": 89,
+          "valorTotal": 445
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 6,
+          "valorUnitario": 18.7,
+          "valorTotal": 112.2
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 6,
+          "valorUnitario": 27.45,
+          "valorTotal": 164.7
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 8,
+          "valorUnitario": 18.7,
+          "valorTotal": 149.6
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 1,
+          "valorUnitario": 74.5,
+          "valorTotal": 74.5
+        }
+      ],
+      "valorProdutos": 946,
+      "valorFrete": 0,
+      "valorDesconto": 19.07,
+      "valorOutros": 0,
+      "valorTotal": 926.93,
+      "uncertain": []
+    }
+  },
+  "ms": 23759
+}

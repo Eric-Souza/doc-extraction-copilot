@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "92.642.140/0001-81"
+      },
+      "beneficiario": {
+        "nome": "Mariana Moura Nogueira",
+        "cpf": "625.604.877-64"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3396.8
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 3965.13
+        }
+      ],
+      "totalIsentos": 7361.93,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 6662.08
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 4223.39
+        }
+      ],
+      "totalExclusivos": 10885.47,
+      "impostoRetido": 1920.97,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 903.79,
+          "saldoAtual": 4369.33
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 132004.54,
+          "saldoAtual": 24104.2
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 7079
+}

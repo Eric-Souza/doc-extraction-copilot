@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": null,
+      "beneficiario": "Gás Bem Brasil Distribuidora",
+      "beneficiarioDocumento": "88.YTH.375/0001-69",
+      "pagador": "Gustavo Moura Lacerda",
+      "pagadorDocumento": "923.399.330-21",
+      "linhaDigitavel": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "vencimento": "2026-11-01",
+      "valor": 92.3,
+      "nossoNumero": null,
+      "uncertain": [
+        "beneficiarioDocumento"
+      ]
+    }
+  },
+  "ms": 15569
+}

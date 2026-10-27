@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "104-0",
+      "beneficiario": "TecnoLar Eletrodomésticos S.A.",
+      "beneficiarioDocumento": "70.DYB.373/0001-83",
+      "pagador": "Beatriz Azevedo Lacerda",
+      "pagadorDocumento": "923.864.252-40",
+      "linhaDigitavel": "10490.91356 89980.294196 04273.655953 8 15990000189657",
+      "vencimento": "2026-10-14",
+      "valor": 1517.26,
+      "nossoNumero": "37801123794",
+      "uncertain": []
+    }
+  },
+  "ms": 14497
+}

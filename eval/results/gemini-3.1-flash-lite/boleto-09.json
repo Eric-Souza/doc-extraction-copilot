@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Inter 077-9",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "77.465.646/0001-79",
+      "pagador": "Luíza Siqueira Lacerda",
+      "pagadorDocumento": "747.760.526-10",
+      "linhaDigitavel": "07799.36046 30285.648926 35974.024685 9 16180000133312",
+      "vencimento": "2026-11-02",
+      "valor": 1333.12,
+      "nossoNumero": "89719492329",
+      "uncertain": []
+    }
+  },
+  "ms": 4684
+}

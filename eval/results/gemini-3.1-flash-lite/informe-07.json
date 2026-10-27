@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "40.462.547/0001-23"
+      },
+      "beneficiario": {
+        "nome": "Camila Siqueira Nogueira",
+        "cpf": "632.124.967-03"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 966.23
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 1049.13
+        }
+      ],
+      "totalIsentos": 2015.36,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 2982.44
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 964.96
+        }
+      ],
+      "totalExclusivos": 3947.4,
+      "impostoRetido": 696.6,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 331.95,
+          "saldoAtual": 3079.28
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 115886.09,
+          "saldoAtual": 117981.08
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 4590
+}

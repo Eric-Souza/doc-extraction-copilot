@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "29260959837253000167550020000054481864039580",
+      "numero": 5448,
+      "serie": 2,
+      "dataEmissao": "2026-09-09",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "59.837.253/0001-67",
+        "uf": "BA"
+      },
+      "destinatario": {
+        "nome": "Pedro Ribeiro Teixeira",
+        "documento": "978.437.681-49"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 1,
+          "valorUnitario": 89,
+          "valorTotal": 99
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 5,
+          "valorUnitario": 32.9,
+          "valorTotal": 164.5
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 11,
+          "valorUnitario": 19.99,
+          "valorTotal": 219.89
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "quantidade": 1,
+          "valorUnitario": 11.49,
+          "valorTotal": 11.49
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 1,
+          "valorUnitario": 27.45,
+          "valorTotal": 27.45
+        }
+      ],
+      "valorProdutos": 512.33,
+      "valorFrete": 40.24,
+      "valorDesconto": 12.68,
+      "valorOutros": 0,
+      "valorTotal": 539.89,
+      "uncertain": []
+    }
+  },
+  "ms": 9151
+}

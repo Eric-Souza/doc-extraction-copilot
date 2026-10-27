@@ -1,0 +1,57 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Âncora Distribuidora de Títulos Ltda",
+        "cnpj": "69.945.335/0001-89"
+      },
+      "beneficiario": {
+        "nome": "Gustavo Fontes Siqueira",
+        "cpf": "406.710.005-19"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 5155.97
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 2371.47
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 333.85
+        }
+      ],
+      "totalIsentos": 7861.29,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 4354.88
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 4600.79
+        }
+      ],
+      "totalExclusivos": 8955.67,
+      "impostoRetido": 1580.41,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 1004.46,
+          "saldoAtual": 947.69
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 97696.45,
+          "saldoAtual": 49513.49
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 6557
+}
