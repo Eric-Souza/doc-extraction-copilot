@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "boleto-01",
+    "file": "boleto-01.jpg",
+    "type": "boleto",
+    "look": {
+      "format": "jpeg",
+      "rotate": 2.8,
+      "blur": 0.3,
+      "contrast": 0.7526246588677168
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Caixa 104-0",
+      "beneficiario": "Escola Pequeno Saber Ltda",
+      "beneficiarioDocumento": "68.GAB.631/0001-33",
+      "pagador": "Ana Clara Moura Teixeira",
+      "pagadorDocumento": "950.227.997-23",
+      "linhaDigitavel": "10492.24262 83900.377397 66309.198241 1 16360000101831",
+      "vencimento": "2026-11-20",
+      "valor": 1018.31,
+      "nossoNumero": "19687545775",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-02",
+    "file": "boleto-02.png",
+    "type": "boleto",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": null,
+      "beneficiario": "Companhia de Energia Vale do Sol",
+      "beneficiarioDocumento": "45.GYX.096/0001-87",
+      "pagador": "Larissa Ribeiro Pacheco",
+      "pagadorDocumento": "509.897.099-73",
+      "linhaDigitavel": "82670000002-7 97144028951-2 04982378169-2 05166223193-8",
+      "vencimento": "2026-12-12",
+      "valor": 297.14,
+      "nossoNumero": null,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-03",
+    "file": "boleto-03.pdf",
+    "type": "boleto",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Inter 077-9",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "32.420.191/0001-37",
+      "pagador": "Gustavo Lacerda Costa",
+      "pagadorDocumento": "113.902.055-25",
+      "linhaDigitavel": "07799.35568 85467.134418 13044.122664 3 16550000119445",
+      "vencimento": "2026-12-09",
+      "valor": 1194.45,
+      "nossoNumero": "31289871239",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-04",
+    "file": "boleto-04.pdf",
+    "type": "boleto",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Itaú 341-7",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "71.910.311/0001-36",
+      "pagador": "Mariana Moura Alves",
+      "pagadorDocumento": "640.503.043-17",
+      "linhaDigitavel": "34194.55831 41778.637714 76519.555577 1 16230000308016",
+      "vencimento": "2026-11-07",
+      "valor": 3080.16,
+      "nossoNumero": "93378095139",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-05",
+    "file": "boleto-05.png",
+    "type": "boleto",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Inter 077-9",
+      "beneficiario": "Clínica Bem Viver Ltda",
+      "beneficiarioDocumento": "61.364.831/0001-37",
+      "pagador": "Camila Azevedo Fontes",
+      "pagadorDocumento": "250.518.565-43",
+      "linhaDigitavel": "07799.34991 85899.015219 41518.535111 8 16570000284900",
+      "vencimento": "2026-12-11",
+      "valor": 2849,
+      "nossoNumero": "55883492334",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-06",
+    "file": "boleto-06.jpg",
+    "type": "boleto",
+    "look": {
+      "format": "jpeg",
+      "rotate": -1,
+      "blur": 0.9,
+      "contrast": 0.8245194362010807
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Banco do Brasil 001-9",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "22.967.066/0001-98",
+      "pagador": "Ana Clara Costa Barbosa",
+      "pagadorDocumento": "874.077.878-91",
+      "linhaDigitavel": "00197.12215 69255.408341 43254.614894 1 15900000117527",
+      "vencimento": "2026-10-05",
+      "valor": 1175.27,
+      "nossoNumero": "41983640477",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-07",
+    "file": "boleto-07.pdf",
+    "type": "boleto",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Itaú 341-7",
+      "beneficiario": "Papelaria Ponto Final Ltda",
+      "beneficiarioDocumento": "77.304.435/0001-54",
+      "pagador": "Gustavo Costa Barbosa",
+      "pagadorDocumento": "282.300.207-36",
+      "linhaDigitavel": "34198.19903 30177.709208 47954.847480 9 15970000105872",
+      "vencimento": "2026-10-12",
+      "valor": 1058.72,
+      "nossoNumero": "53068358308",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-08",
+    "file": "boleto-08.jpg",
+    "type": "boleto",
+    "look": {
+      "format": "jpeg",
+      "rotate": -2.3,
+      "blur": 0.1,
+      "contrast": 0.9280242840759456
+    },
+    "planted": null,
+    "truth": {
+      "banco": null,
+      "beneficiario": "Gás Bem Brasil Distribuidora",
+      "beneficiarioDocumento": "88.YTH.375/0001-69",
+      "pagador": "Gustavo Moura Lacerda",
+      "pagadorDocumento": "923.399.330-21",
+      "linhaDigitavel": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "vencimento": "2026-11-01",
+      "valor": 92.3,
+      "nossoNumero": null,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-09",
+    "file": "boleto-09.pdf",
+    "type": "boleto",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Inter 077-9",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "77.465.646/0001-79",
+      "pagador": "Luíza Siqueira Lacerda",
+      "pagadorDocumento": "747.760.526-10",
+      "linhaDigitavel": "07799.36046 30285.648926 35974.024685 9 16180000133312",
+      "vencimento": "2026-11-02",
+      "valor": 1333.12,
+      "nossoNumero": "89719492329",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-10",
+    "file": "boleto-10.jpg",
+    "type": "boleto",
+    "look": {
+      "format": "jpeg",
+      "rotate": -0.2,
+      "blur": 0.7,
+      "contrast": 0.835900940047577
+    },
+    "planted": null,
+    "truth": {
+      "banco": "Banco do Brasil 001-9",
+      "beneficiario": "Condomínio Residencial Jardim das Acácias",
+      "beneficiarioDocumento": "29.919.631/0001-90",
+      "pagador": "Gustavo Lacerda Ribeiro",
+      "pagadorDocumento": "043.412.270-09",
+      "linhaDigitavel": "00198.96372 79129.613422 57226.097228 1 16150000162340",
+      "vencimento": "2026-10-30",
+      "valor": 1623.4,
+      "nossoNumero": "23610191060",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-11",
+    "file": "boleto-11.png",
+    "type": "boleto",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": {
+      "what": "printed amount differs from the digit line",
+      "paths": [
+        "valor"
+      ]
+    },
+    "truth": {
+      "banco": "Bradesco 237-2",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "03.SRZ.656/0001-98",
+      "pagador": "Beatriz Teixeira Fontes",
+      "pagadorDocumento": "595.469.014-66",
+      "linhaDigitavel": "23798.26890 25339.729821 71372.903816 9 16350000306247",
+      "vencimento": "2026-11-19",
+      "valor": 2449.98,
+      "nossoNumero": "71001550323",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "boleto-12",
+    "file": "boleto-12.pdf",
+    "type": "boleto",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": {
+      "what": "printed amount differs from the digit line",
+      "paths": [
+        "valor"
+      ]
+    },
+    "truth": {
+      "banco": "Caixa 104-0",
+      "beneficiario": "TecnoLar Eletrodomésticos S.A.",
+      "beneficiarioDocumento": "70.DYB.373/0001-83",
+      "pagador": "Beatriz Azevedo Lacerda",
+      "pagadorDocumento": "923.864.252-40",
+      "linhaDigitavel": "10490.91356 89980.294196 04273.655953 8 15990000189657",
+      "vencimento": "2026-10-14",
+      "valor": 1517.26,
+      "nossoNumero": "37801123794",
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-01",
+    "file": "nfe-01.png",
+    "type": "nfe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3126 0969 JDU9 6700 0173 5500 2000 0729 0919 4342 9460",
+      "numero": 72909,
+      "serie": 2,
+      "dataEmissao": "2026-09-13",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "69.JDU.967/0001-73",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Nogueira Alves",
+        "documento": "307.014.765-83"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 8,
+          "valorUnitario": 89,
+          "valorTotal": 712
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 2,
+          "valorUnitario": 89,
+          "valorTotal": 178
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 9,
+          "valorUnitario": 28.99,
+          "valorTotal": 260.91
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 7,
+          "valorUnitario": 19.99,
+          "valorTotal": 139.93
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 10,
+          "valorUnitario": 28.99,
+          "valorTotal": 289.9
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 3,
+          "valorUnitario": 19.99,
+          "valorTotal": 59.97
+        }
+      ],
+      "valorProdutos": 1640.71,
+      "valorFrete": 22.82,
+      "valorDesconto": 15.14,
+      "valorOutros": 0,
+      "valorTotal": 1648.39,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-02",
+    "file": "nfe-02.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 0.4,
+      "blur": 0.4,
+      "contrast": 0.8456948987673968
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "2626 0928 KAP3 5000 0107 5500 1000 0568 3718 4920 8964",
+      "numero": 56837,
+      "serie": 1,
+      "dataEmissao": "2026-09-12",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "28.KAP.350/0001-07",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Ana Clara Ribeiro Moura",
+        "documento": "967.459.695-05"
+      },
+      "itens": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 6,
+          "valorUnitario": 32.9,
+          "valorTotal": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 7,
+          "valorUnitario": 42,
+          "valorTotal": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 7,
+          "valorUnitario": 74.5,
+          "valorTotal": 521.5
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 5,
+          "valorUnitario": 74.5,
+          "valorTotal": 372.5
+        }
+      ],
+      "valorProdutos": 1385.4,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1385.4,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-03",
+    "file": "nfe-03.pdf",
+    "type": "nfe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3326 0966 PUM6 3900 0169 5500 1000 0187 4815 3378 2850",
+      "numero": 18748,
+      "serie": 1,
+      "dataEmissao": "2026-09-20",
+      "emitente": {
+        "nome": "Escola Pequeno Saber Ltda",
+        "cnpj": "66.PUM.639/0001-69",
+        "uf": "RJ"
+      },
+      "destinatario": {
+        "nome": "Camila Lacerda Lacerda",
+        "documento": "591.351.181-64"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 3,
+          "valorUnitario": 2.89,
+          "valorTotal": 8.67
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 6,
+          "valorUnitario": 2.89,
+          "valorTotal": 17.34
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 11,
+          "valorUnitario": 74.5,
+          "valorTotal": 819.5
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 10,
+          "valorUnitario": 32.9,
+          "valorTotal": 329
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 9,
+          "valorUnitario": 18.7,
+          "valorTotal": 168.3
+        }
+      ],
+      "valorProdutos": 1342.81,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1342.81,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-04",
+    "file": "nfe-04.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": -0.2,
+      "blur": 0.2,
+      "contrast": 0.9372668918222189
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3126 1014 UEY8 7900 0139 5500 2000 0880 5413 7668 6057",
+      "numero": 88054,
+      "serie": 2,
+      "dataEmissao": "2026-10-17",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "14.UEY.879/0001-39",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Lacerda Nogueira",
+        "documento": "920.055.011-82"
+      },
+      "itens": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 1,
+          "valorUnitario": 39.9,
+          "valorTotal": 39.9
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 5,
+          "valorUnitario": 2.89,
+          "valorTotal": 14.45
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 4,
+          "valorUnitario": 18.7,
+          "valorTotal": 74.8
+        }
+      ],
+      "valorProdutos": 129.15,
+      "valorFrete": 39.99,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 169.14,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-05",
+    "file": "nfe-05.pdf",
+    "type": "nfe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "4226 0824 1379 3900 0160 5500 2000 0989 2011 0009 8746",
+      "numero": 98920,
+      "serie": 2,
+      "dataEmissao": "2026-08-23",
+      "emitente": {
+        "nome": "Hortifruti Vale Verde Ltda",
+        "cnpj": "24.137.939/0001-60",
+        "uf": "SC"
+      },
+      "destinatario": {
+        "nome": "Luíza Pacheco Nogueira",
+        "documento": "266.962.320-44"
+      },
+      "itens": [
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 6,
+          "valorUnitario": 42,
+          "valorTotal": 252
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 3,
+          "valorUnitario": 42,
+          "valorTotal": 126
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 10,
+          "valorUnitario": 19.99,
+          "valorTotal": 199.9
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 3,
+          "valorUnitario": 74.5,
+          "valorTotal": 223.5
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 7,
+          "valorUnitario": 74.5,
+          "valorTotal": 521.5
+        }
+      ],
+      "valorProdutos": 1322.9,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1322.9,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-06",
+    "file": "nfe-06.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 2.4,
+      "blur": 0.6,
+      "contrast": 0.7569865389261394
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "2626 0811 4479 0600 0175 5500 1000 0921 1712 5886 2022",
+      "numero": 92117,
+      "serie": 1,
+      "dataEmissao": "2026-08-16",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "11.447.906/0001-75",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Mariana Alves Siqueira",
+        "documento": "838.803.282-85"
+      },
+      "itens": [
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 4,
+          "valorUnitario": 39.9,
+          "valorTotal": 159.6
+        },
+        {
+          "descricao": "Caderno universitário 10 matérias",
+          "quantidade": 9,
+          "valorUnitario": 24.9,
+          "valorTotal": 224.1
+        }
+      ],
+      "valorProdutos": 658.2,
+      "valorFrete": 38.01,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 696.21,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-07",
+    "file": "nfe-07.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 1.1,
+      "blur": 0.5,
+      "contrast": 0.7661702189128846
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3126 0843 4005 8400 0103 5500 3000 0136 5813 1187 8482",
+      "numero": 13658,
+      "serie": 3,
+      "dataEmissao": "2026-08-17",
+      "emitente": {
+        "nome": "Escola Pequeno Saber Ltda",
+        "cnpj": "43.400.584/0001-03",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Pedro Costa Fontes",
+        "documento": "719.117.052-29"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 5,
+          "valorUnitario": 89,
+          "valorTotal": 445
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 6,
+          "valorUnitario": 18.7,
+          "valorTotal": 112.2
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 6,
+          "valorUnitario": 27.45,
+          "valorTotal": 164.7
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 8,
+          "valorUnitario": 18.7,
+          "valorTotal": 149.6
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 1,
+          "valorUnitario": 74.5,
+          "valorTotal": 74.5
+        }
+      ],
+      "valorProdutos": 946,
+      "valorFrete": 0,
+      "valorDesconto": 19.07,
+      "valorOutros": 0,
+      "valorTotal": 926.93,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-08",
+    "file": "nfe-08.png",
+    "type": "nfe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "2626 0909 CET8 3900 0151 5500 1000 0121 8714 8821 9286",
+      "numero": 12187,
+      "serie": 1,
+      "dataEmissao": "2026-09-09",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "09.CET.839/0001-51",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Ana Clara Moura Alves",
+        "documento": "268.507.219-50"
+      },
+      "itens": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 7,
+          "valorUnitario": 39.9,
+          "valorTotal": 279.3
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 12,
+          "valorUnitario": 74.5,
+          "valorTotal": 894
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 12,
+          "valorUnitario": 19.99,
+          "valorTotal": 239.88
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 5,
+          "valorUnitario": 32.9,
+          "valorTotal": 164.5
+        }
+      ],
+      "valorProdutos": 1577.68,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1577.68,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-09",
+    "file": "nfe-09.pdf",
+    "type": "nfe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3126 1002 7652 4800 0179 5500 2000 0155 8016 2792 7570",
+      "numero": 15580,
+      "serie": 2,
+      "dataEmissao": "2026-10-13",
+      "emitente": {
+        "nome": "Distribuidora Rio Claro de Alimentos Ltda",
+        "cnpj": "02.765.248/0001-79",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Ribeiro Barbosa",
+        "documento": "284.850.234-71"
+      },
+      "itens": [
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 11,
+          "valorUnitario": 74.5,
+          "valorTotal": 819.5
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 9,
+          "valorUnitario": 27.45,
+          "valorTotal": 247.05
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 9,
+          "valorUnitario": 42,
+          "valorTotal": 378
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 9,
+          "valorUnitario": 27.45,
+          "valorTotal": 247.05
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 2,
+          "valorUnitario": 27.45,
+          "valorTotal": 54.9
+        }
+      ],
+      "valorProdutos": 1746.5,
+      "valorFrete": 12.48,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1758.98,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-10",
+    "file": "nfe-10.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 1.5,
+      "blur": 0.5,
+      "contrast": 0.9494087073486298
+    },
+    "planted": null,
+    "truth": {
+      "chaveAcesso": "3126 1097 6165 0200 0183 5500 2000 0432 0511 3272 4556",
+      "numero": 43205,
+      "serie": 2,
+      "dataEmissao": "2026-10-19",
+      "emitente": {
+        "nome": "Academia Corpo em Movimento ME",
+        "cnpj": "97.616.502/0001-83",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "João Teixeira Azevedo",
+        "documento": "264.079.626-76"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 11,
+          "valorUnitario": 2.89,
+          "valorTotal": 31.79
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 8,
+          "valorUnitario": 18.7,
+          "valorTotal": 149.6
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "quantidade": 6,
+          "valorUnitario": 11.49,
+          "valorTotal": 68.94
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 11,
+          "valorUnitario": 19.99,
+          "valorTotal": 219.89
+        }
+      ],
+      "valorProdutos": 744.72,
+      "valorFrete": 43.05,
+      "valorDesconto": 26.56,
+      "valorOutros": 0,
+      "valorTotal": 761.21,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-11",
+    "file": "nfe-11.png",
+    "type": "nfe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": {
+      "what": "first line total is R$ 10 off",
+      "paths": [
+        "itens[0].quantidade",
+        "itens[0].valorUnitario",
+        "itens[0].valorTotal",
+        "valorProdutos"
+      ]
+    },
+    "truth": {
+      "chaveAcesso": "2926 0959 8372 5300 0167 5500 2000 0054 4818 6403 9580",
+      "numero": 5448,
+      "serie": 2,
+      "dataEmissao": "2026-09-09",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "59.837.253/0001-67",
+        "uf": "BA"
+      },
+      "destinatario": {
+        "nome": "Pedro Ribeiro Teixeira",
+        "documento": "978.437.681-49"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 1,
+          "valorUnitario": 89,
+          "valorTotal": 99
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 5,
+          "valorUnitario": 32.9,
+          "valorTotal": 164.5
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 11,
+          "valorUnitario": 19.99,
+          "valorTotal": 219.89
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "quantidade": 1,
+          "valorUnitario": 11.49,
+          "valorTotal": 11.49
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 1,
+          "valorUnitario": 27.45,
+          "valorTotal": 27.45
+        }
+      ],
+      "valorProdutos": 512.33,
+      "valorFrete": 40.24,
+      "valorDesconto": 12.68,
+      "valorOutros": 0,
+      "valorTotal": 539.89,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "nfe-12",
+    "file": "nfe-12.jpg",
+    "type": "nfe",
+    "look": {
+      "format": "jpeg",
+      "rotate": -2.2,
+      "blur": 0.8,
+      "contrast": 0.7771734677720815
+    },
+    "planted": {
+      "what": "first line total is R$ 10 off",
+      "paths": [
+        "itens[0].quantidade",
+        "itens[0].valorUnitario",
+        "itens[0].valorTotal",
+        "valorProdutos"
+      ]
+    },
+    "truth": {
+      "chaveAcesso": "4326 0844 3184 0000 0115 5500 1000 0193 5615 4390 5357",
+      "numero": 19356,
+      "serie": 1,
+      "dataEmissao": "2026-08-17",
+      "emitente": {
+        "nome": "Clínica Bem Viver Ltda",
+        "cnpj": "44.318.400/0001-15",
+        "uf": "RS"
+      },
+      "destinatario": {
+        "nome": "Gustavo Lacerda Nogueira",
+        "documento": "601.923.320-07"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 12,
+          "valorUnitario": 2.89,
+          "valorTotal": 44.68
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 7,
+          "valorUnitario": 2.89,
+          "valorTotal": 20.23
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 11,
+          "valorUnitario": 89,
+          "valorTotal": 979
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 5,
+          "valorUnitario": 18.7,
+          "valorTotal": 93.5
+        }
+      ],
+      "valorProdutos": 1127.41,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1127.41,
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-01",
+    "file": "informe-01.jpg",
+    "type": "informe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 0.6,
+      "blur": 0.6,
+      "contrast": 0.7562546104192733
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Horizonte Corretora de Valores S.A.",
+        "cnpj": "29.176.574/0001-05"
+      },
+      "beneficiario": {
+        "nome": "Rafael Ribeiro Alves",
+        "cpf": "811.215.835-55"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3639.13
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 570.06
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 801.25
+        }
+      ],
+      "totalIsentos": 5010.44,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 2576.5
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 2236.01
+        },
+        {
+          "descricao": "Fundos de investimento",
+          "valor": 523.69
+        }
+      ],
+      "totalExclusivos": 5336.2,
+      "impostoRetido": 941.68,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 3445.77,
+          "saldoAtual": 2098.84
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 122436.19,
+          "saldoAtual": 124258.16
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-02",
+    "file": "informe-02.pdf",
+    "type": "informe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "92.642.140/0001-81"
+      },
+      "beneficiario": {
+        "nome": "Mariana Moura Nogueira",
+        "cpf": "625.604.877-64"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3396.8
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 3965.13
+        }
+      ],
+      "totalIsentos": 7361.93,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 6662.08
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 4223.39
+        }
+      ],
+      "totalExclusivos": 10885.47,
+      "impostoRetido": 1920.97,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 903.79,
+          "saldoAtual": 4369.33
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 132004.54,
+          "saldoAtual": 24104.2
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-03",
+    "file": "informe-03.pdf",
+    "type": "informe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "80.413.843/0001-59"
+      },
+      "beneficiario": {
+        "nome": "Gustavo Fontes Fontes",
+        "cpf": "802.757.317-31"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 945.15
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 231.67
+        }
+      ],
+      "totalIsentos": 1176.82,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 8869.54
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 806.57
+        }
+      ],
+      "totalExclusivos": 9676.11,
+      "impostoRetido": 1707.55,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 2103.53,
+          "saldoAtual": 814
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 51710.41,
+          "saldoAtual": 28382.05
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-04",
+    "file": "informe-04.png",
+    "type": "informe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Âncora Distribuidora de Títulos Ltda",
+        "cnpj": "69.945.335/0001-89"
+      },
+      "beneficiario": {
+        "nome": "Gustavo Fontes Siqueira",
+        "cpf": "406.710.005-19"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 5155.97
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 2371.47
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 333.85
+        }
+      ],
+      "totalIsentos": 7861.29,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 4354.88
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 4600.79
+        }
+      ],
+      "totalExclusivos": 8955.67,
+      "impostoRetido": 1580.41,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 1004.46,
+          "saldoAtual": 947.69
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 97696.45,
+          "saldoAtual": 49513.49
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-05",
+    "file": "informe-05.png",
+    "type": "informe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Âncora Distribuidora de Títulos Ltda",
+        "cnpj": "88.091.392/0001-92"
+      },
+      "beneficiario": {
+        "nome": "Mariana Teixeira Lacerda",
+        "cpf": "651.564.123-00"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 5606.23
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 5299.4
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 689.89
+        }
+      ],
+      "totalIsentos": 11595.52,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 592.62
+        },
+        {
+          "descricao": "Fundos de investimento",
+          "valor": 59.42
+        }
+      ],
+      "totalExclusivos": 652.04,
+      "impostoRetido": 115.07,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 1273.89,
+          "saldoAtual": 712.99
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 21031.97,
+          "saldoAtual": 22742.03
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-06",
+    "file": "informe-06.jpg",
+    "type": "informe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 1.4,
+      "blur": 0.7,
+      "contrast": 0.8204346076585353
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Cooperativa de Crédito Serra Azul",
+        "cnpj": "84.804.983/0001-09"
+      },
+      "beneficiario": {
+        "nome": "Camila Nogueira Siqueira",
+        "cpf": "917.929.573-86"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3076.54
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 4628.41
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 391.5
+        }
+      ],
+      "totalIsentos": 8096.45,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 6899.27
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 1079.12
+        }
+      ],
+      "totalExclusivos": 7978.39,
+      "impostoRetido": 1407.95,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 2783.74,
+          "saldoAtual": 644.72
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 19491.92,
+          "saldoAtual": 56673.34
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-07",
+    "file": "informe-07.png",
+    "type": "informe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "40.462.547/0001-23"
+      },
+      "beneficiario": {
+        "nome": "Camila Siqueira Nogueira",
+        "cpf": "632.124.967-03"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 966.23
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 1049.13
+        }
+      ],
+      "totalIsentos": 2015.36,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 2982.44
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 964.96
+        }
+      ],
+      "totalExclusivos": 3947.4,
+      "impostoRetido": 696.6,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 331.95,
+          "saldoAtual": 3079.28
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 115886.09,
+          "saldoAtual": 117981.08
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-08",
+    "file": "informe-08.pdf",
+    "type": "informe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "98.937.491/0001-04"
+      },
+      "beneficiario": {
+        "nome": "Ana Clara Alves Siqueira",
+        "cpf": "979.127.799-06"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3393.55
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 2682.45
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 696.01
+        }
+      ],
+      "totalIsentos": 6772.01,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 1109.99
+        }
+      ],
+      "totalExclusivos": 1109.99,
+      "impostoRetido": 195.88,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 3945.75,
+          "saldoAtual": 2557.33
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 125037.37,
+          "saldoAtual": 65017.09
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-09",
+    "file": "informe-09.jpg",
+    "type": "informe",
+    "look": {
+      "format": "jpeg",
+      "rotate": 1.4,
+      "blur": 0,
+      "contrast": 0.8457479585893453
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Cooperativa de Crédito Serra Azul",
+        "cnpj": "18.891.172/0001-68"
+      },
+      "beneficiario": {
+        "nome": "Felipe Ribeiro Siqueira",
+        "cpf": "277.074.719-38"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 4119
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 456.19
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 266.67
+        }
+      ],
+      "totalIsentos": 4841.86,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 8120.68
+        }
+      ],
+      "totalExclusivos": 8120.68,
+      "impostoRetido": 1433.06,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 300.67,
+          "saldoAtual": 2228.42
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 147660.39,
+          "saldoAtual": 46443.71
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-10",
+    "file": "informe-10.png",
+    "type": "informe",
+    "look": {
+      "format": "png",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": null,
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "46.EXF.482/0001-85"
+      },
+      "beneficiario": {
+        "nome": "Thiago Lacerda Pacheco",
+        "cpf": "116.758.383-30"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 1536.58
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 4917.07
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 582.26
+        }
+      ],
+      "totalIsentos": 7035.91,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 5975.04
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 145.43
+        }
+      ],
+      "totalExclusivos": 6120.47,
+      "impostoRetido": 1080.08,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 203.82,
+          "saldoAtual": 4226.09
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 45458.98,
+          "saldoAtual": 102498.29
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-11",
+    "file": "informe-11.pdf",
+    "type": "informe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": {
+      "what": "exempt income total is R$ 100 more than its lines",
+      "paths": [
+        "totalIsentos",
+        "isentos[0].valor",
+        "isentos[1].valor"
+      ]
+    },
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Horizonte Corretora de Valores S.A.",
+        "cnpj": "72.552.517/0001-02"
+      },
+      "beneficiario": {
+        "nome": "Mariana Pacheco Pacheco",
+        "cpf": "028.857.326-95"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3131.82
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 1109.99
+        }
+      ],
+      "totalIsentos": 4341.81,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 1856.83
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 3766.26
+        }
+      ],
+      "totalExclusivos": 5623.09,
+      "impostoRetido": 992.31,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 492.06,
+          "saldoAtual": 4364.98
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 110718,
+          "saldoAtual": 32099.56
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  {
+    "id": "informe-12",
+    "file": "informe-12.pdf",
+    "type": "informe",
+    "look": {
+      "format": "pdf",
+      "rotate": 0,
+      "blur": 0,
+      "contrast": 1
+    },
+    "planted": {
+      "what": "exempt income total is R$ 100 more than its lines",
+      "paths": [
+        "totalIsentos",
+        "isentos[0].valor",
+        "isentos[1].valor"
+      ]
+    },
+    "truth": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Horizonte Corretora de Valores S.A.",
+        "cnpj": "40.382.545/0001-24"
+      },
+      "beneficiario": {
+        "nome": "Mariana Pacheco Teixeira",
+        "cpf": "790.989.303-52"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 1084.9
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 1137.21
+        }
+      ],
+      "totalIsentos": 2322.11,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 4836.66
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 3614.17
+        }
+      ],
+      "totalExclusivos": 8450.83,
+      "impostoRetido": 1491.32,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 4828.71,
+          "saldoAtual": 1480.84
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 116074.07,
+          "saldoAtual": 71124.15
+        }
+      ],
+      "uncertain": []
+    }
+  }
+]

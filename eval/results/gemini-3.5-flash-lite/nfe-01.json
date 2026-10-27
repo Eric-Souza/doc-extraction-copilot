@@ -1,0 +1,65 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "31260969JDU967000173550020000729091943429460",
+      "numero": 72909,
+      "serie": 2,
+      "dataEmissao": "2026-09-13",
+      "emitente": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "cnpj": "69.JDU.967/0001-73",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Nogueira Alves",
+        "documento": "307.014.765-83"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 8,
+          "valorUnitario": 89,
+          "valorTotal": 712
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 2,
+          "valorUnitario": 89,
+          "valorTotal": 178
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 9,
+          "valorUnitario": 28.99,
+          "valorTotal": 260.91
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 7,
+          "valorUnitario": 19.99,
+          "valorTotal": 139.93
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 10,
+          "valorUnitario": 28.99,
+          "valorTotal": 289.9
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 3,
+          "valorUnitario": 19.99,
+          "valorTotal": 59.97
+        }
+      ],
+      "valorProdutos": 1640.71,
+      "valorFrete": 22.82,
+      "valorDesconto": 15.14,
+      "valorOutros": 0,
+      "valorTotal": 1648.39,
+      "uncertain": []
+    }
+  },
+  "ms": 11586
+}

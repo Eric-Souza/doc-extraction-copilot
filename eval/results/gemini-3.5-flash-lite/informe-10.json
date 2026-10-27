@@ -1,0 +1,57 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "46.EXF.482/0001-85"
+      },
+      "beneficiario": {
+        "nome": "Thiago Lacerda Pacheco",
+        "cpf": "116.758.383-30"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 1536.58
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 4917.07
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 582.26
+        }
+      ],
+      "totalIsentos": 7035.91,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 5975.04
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 145.43
+        }
+      ],
+      "totalExclusivos": 6120.47,
+      "impostoRetido": 1080.08,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 203.82,
+          "saldoAtual": 4226.09
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 45458.98,
+          "saldoAtual": 102498.29
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 4423
+}

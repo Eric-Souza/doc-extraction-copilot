@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Itaú",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "71.910.311/0001-36",
+      "pagador": "Mariana Moura Alves",
+      "pagadorDocumento": "640.503.043-17",
+      "linhaDigitavel": "34194.55831 41778.637714 76519.555577 1 16230000308016",
+      "vencimento": "2026-11-07",
+      "valor": 3080.16,
+      "nossoNumero": "93378095139",
+      "uncertain": []
+    }
+  },
+  "ms": 30260
+}

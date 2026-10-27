@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "26260928KAP350000107550010000568371849208964",
+      "numero": 56837,
+      "serie": 1,
+      "dataEmissao": "2026-09-12",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "28.KAP.350/0001-07",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Ana Clara Ribeiro Moura",
+        "documento": "967.459.695-05"
+      },
+      "itens": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 6,
+          "valorUnitario": 32.9,
+          "valorTotal": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 7,
+          "valorUnitario": 42,
+          "valorTotal": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 7,
+          "valorUnitario": 74.5,
+          "valorTotal": 521.5
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 5,
+          "valorUnitario": 74.5,
+          "valorTotal": 372.5
+        }
+      ],
+      "valorProdutos": 1385.4,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1385.4,
+      "uncertain": []
+    }
+  },
+  "ms": 3739
+}

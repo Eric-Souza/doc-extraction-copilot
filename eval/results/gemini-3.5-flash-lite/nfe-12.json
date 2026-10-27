@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "43260844318400000115550010000193561543905357",
+      "numero": 19356,
+      "serie": 1,
+      "dataEmissao": "2026-08-17",
+      "emitente": {
+        "nome": "Clínica Bem Viver Ltda",
+        "cnpj": "44.318.400/0001-15",
+        "uf": "RS"
+      },
+      "destinatario": {
+        "nome": "Gustavo Lacerda Nogueira",
+        "documento": "601.923.320-07"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 12,
+          "valorUnitario": 2.89,
+          "valorTotal": 44.68
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 7,
+          "valorUnitario": 2.89,
+          "valorTotal": 20.23
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 11,
+          "valorUnitario": 89,
+          "valorTotal": 979
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 5,
+          "valorUnitario": 18.7,
+          "valorTotal": 93.5
+        }
+      ],
+      "valorProdutos": 1127.41,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1127.41,
+      "uncertain": []
+    }
+  },
+  "ms": 3754
+}

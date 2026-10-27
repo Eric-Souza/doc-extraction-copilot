@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "077-9",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "32.420.191/0001-37",
+      "pagador": "Gustavo Lacerda Costa",
+      "pagadorDocumento": "113.902.055-25",
+      "linhaDigitavel": "07799.35568 85467.134418 13044.122664 3 16550000119445",
+      "vencimento": "2026-12-09",
+      "valor": 1194.45,
+      "nossoNumero": "31289871239",
+      "uncertain": []
+    }
+  },
+  "ms": 5398
+}

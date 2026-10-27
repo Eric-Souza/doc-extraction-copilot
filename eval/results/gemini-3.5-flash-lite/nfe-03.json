@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "33260966PUM639000169550010000187481533782850",
+      "numero": 18748,
+      "serie": 1,
+      "dataEmissao": "2026-09-20",
+      "emitente": {
+        "nome": "Escola Pequeno Saber Ltda",
+        "cnpj": "66.PUM.639/0001-69",
+        "uf": "RJ"
+      },
+      "destinatario": {
+        "nome": "Camila Lacerda Lacerda",
+        "documento": "591.351.181-64"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 3,
+          "valorUnitario": 2.89,
+          "valorTotal": 8.67
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 6,
+          "valorUnitario": 2.89,
+          "valorTotal": 17.34
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 11,
+          "valorUnitario": 74.5,
+          "valorTotal": 819.5
+        },
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 10,
+          "valorUnitario": 32.9,
+          "valorTotal": 329
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 9,
+          "valorUnitario": 18.7,
+          "valorTotal": 168.3
+        }
+      ],
+      "valorProdutos": 1342.81,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1342.81,
+      "uncertain": []
+    }
+  },
+  "ms": 4120
+}

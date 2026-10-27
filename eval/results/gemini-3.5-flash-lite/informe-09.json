@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Cooperativa de Crédito Serra Azul",
+        "cnpj": "18.891.172/0001-68"
+      },
+      "beneficiario": {
+        "nome": "Felipe Ribeiro Siqueira",
+        "cpf": "277.074.719-38"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 4119
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 456.19
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 266.67
+        }
+      ],
+      "totalIsentos": 4841.86,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 8120.68
+        }
+      ],
+      "totalExclusivos": 8120.68,
+      "impostoRetido": 1433.06,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 300.67,
+          "saldoAtual": 2228.42
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 147660.39,
+          "saldoAtual": 46443.71
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 5625
+}

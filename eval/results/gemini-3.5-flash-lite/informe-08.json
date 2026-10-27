@@ -1,0 +1,53 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Banco Atlântico Investimentos S.A.",
+        "cnpj": "98.937.491/0001-04"
+      },
+      "beneficiario": {
+        "nome": "Ana Clara Alves Siqueira",
+        "cpf": "979.127.799-06"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3393.55
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 2682.45
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 696.01
+        }
+      ],
+      "totalIsentos": 6772.01,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 1109.99
+        }
+      ],
+      "totalExclusivos": 1109.99,
+      "impostoRetido": 195.88,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 3945.75,
+          "saldoAtual": 2557.33
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 125037.37,
+          "saldoAtual": 65017.09
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 3893
+}

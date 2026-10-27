@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "31261002765248000179550020000155801627927570",
+      "numero": 15580,
+      "serie": 2,
+      "dataEmissao": "2026-10-13",
+      "emitente": {
+        "nome": "Distribuidora Rio Claro de Alimentos Ltda",
+        "cnpj": "02.765.248/0001-79",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luíza Ribeiro Barbosa",
+        "documento": "284.850.234-71"
+      },
+      "itens": [
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 11,
+          "valorUnitario": 74.5,
+          "valorTotal": 819.5
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 9,
+          "valorUnitario": 27.45,
+          "valorTotal": 247.05
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 9,
+          "valorUnitario": 42,
+          "valorTotal": 378
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 9,
+          "valorUnitario": 27.45,
+          "valorTotal": 247.05
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 2,
+          "valorUnitario": 27.45,
+          "valorTotal": 54.9
+        }
+      ],
+      "valorProdutos": 1746.5,
+      "valorFrete": 12.48,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1758.98,
+      "uncertain": []
+    }
+  },
+  "ms": 10796
+}

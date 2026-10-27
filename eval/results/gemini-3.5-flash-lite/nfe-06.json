@@ -1,0 +1,47 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "26260811447906000175550010000921171258862022",
+      "numero": 92117,
+      "serie": 1,
+      "dataEmissao": "2026-08-16",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "11.447.906/0001-75",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Mariana Alves Siqueira",
+        "documento": "838.803.282-85"
+      },
+      "itens": [
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 4,
+          "valorUnitario": 39.9,
+          "valorTotal": 159.6
+        },
+        {
+          "descricao": "Caderno universitário 10 matérias",
+          "quantidade": 9,
+          "valorUnitario": 24.9,
+          "valorTotal": 224.1
+        }
+      ],
+      "valorProdutos": 658.2,
+      "valorFrete": 38.01,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 696.21,
+      "uncertain": []
+    }
+  },
+  "ms": 8857
+}

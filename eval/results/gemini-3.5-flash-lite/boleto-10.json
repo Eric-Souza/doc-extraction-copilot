@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "001-9",
+      "beneficiario": "Condomínio Residencial Jardim das Acácias",
+      "beneficiarioDocumento": "29.919.631/0001-90",
+      "pagador": "Gustavo Lacerda Ribeiro",
+      "pagadorDocumento": "043.412.270-09",
+      "linhaDigitavel": "00198.96372 79129.613422 57226.097228 1 16150000162340",
+      "vencimento": "2026-10-30",
+      "valor": 1623.4,
+      "nossoNumero": "23610191060",
+      "uncertain": []
+    }
+  },
+  "ms": 5211
+}

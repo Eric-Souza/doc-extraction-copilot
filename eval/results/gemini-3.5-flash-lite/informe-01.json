@@ -1,0 +1,61 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Horizonte Corretora de Valores S.A.",
+        "cnpj": "29.176.574/0001-05"
+      },
+      "beneficiario": {
+        "nome": "Rafael Ribeiro Alves",
+        "cpf": "811.215.835-55"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3639.13
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 570.06
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 801.25
+        }
+      ],
+      "totalIsentos": 5010.44,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 2576.5
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 2236.01
+        },
+        {
+          "descricao": "Fundos de investimento",
+          "valor": 523.69
+        }
+      ],
+      "totalExclusivos": 5336.2,
+      "impostoRetido": 941.68,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 3445.77,
+          "saldoAtual": 2098.84
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 122436.19,
+          "saldoAtual": 124258.16
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 10463
+}

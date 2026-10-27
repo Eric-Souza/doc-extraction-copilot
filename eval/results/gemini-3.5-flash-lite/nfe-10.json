@@ -1,0 +1,59 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "31261097616502000183550020000432051132724556",
+      "numero": 43205,
+      "serie": 2,
+      "dataEmissao": "2026-10-19",
+      "emitente": {
+        "nome": "Academia Corpo em Movimento ME",
+        "cnpj": "97.616.502/0001-83",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "João Teixeira Azevedo",
+        "documento": "264.079.626-76"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 11,
+          "valorUnitario": 2.89,
+          "valorTotal": 31.79
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 8,
+          "valorUnitario": 18.7,
+          "valorTotal": 149.6
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "quantidade": 6,
+          "valorUnitario": 11.49,
+          "valorTotal": 68.94
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 11,
+          "valorUnitario": 19.99,
+          "valorTotal": 219.89
+        }
+      ],
+      "valorProdutos": 744.72,
+      "valorFrete": 43.05,
+      "valorDesconto": 26.56,
+      "valorOutros": 0,
+      "valorTotal": 761.21,
+      "uncertain": []
+    }
+  },
+  "ms": 4341
+}

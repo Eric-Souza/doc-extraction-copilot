@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": null,
+      "beneficiario": "Companhia de Energia Vale do Sol",
+      "beneficiarioDocumento": "45.GYX.096/0001-87",
+      "pagador": "Larissa Ribeiro Pacheco",
+      "pagadorDocumento": "509.897.099-73",
+      "linhaDigitavel": "82670000002-7 97144028951-2 04982378169-2 05166223193-8",
+      "vencimento": "2026-12-12",
+      "valor": 297.14,
+      "nossoNumero": null,
+      "uncertain": []
+    }
+  },
+  "ms": 15338
+}

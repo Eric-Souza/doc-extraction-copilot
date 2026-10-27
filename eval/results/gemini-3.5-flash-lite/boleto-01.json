@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Caixa | 104-0",
+      "beneficiario": "Escola Pequeno Saber Ltda",
+      "beneficiarioDocumento": "68.GAB.631/0001-33",
+      "pagador": "Ana Clara Moura Teixeira",
+      "pagadorDocumento": "950.227.997-23",
+      "linhaDigitavel": "10492.24262 83900.377397 66309.198241 1 16360000101831",
+      "vencimento": "2026-11-20",
+      "valor": 1018.31,
+      "nossoNumero": "19687545775",
+      "uncertain": []
+    }
+  },
+  "ms": 3740
+}

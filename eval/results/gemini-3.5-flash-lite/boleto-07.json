@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Itaú",
+      "beneficiario": "Papelaria Ponto Final Ltda",
+      "beneficiarioDocumento": "77.304.435/0001-54",
+      "pagador": "Gustavo Costa Barbosa",
+      "pagadorDocumento": "282.300.207-36",
+      "linhaDigitavel": "34198.19903 30177.709208 47954.847480 9 15970000105872",
+      "vencimento": "2026-10-12",
+      "valor": 1058.72,
+      "nossoNumero": "53068358308",
+      "uncertain": []
+    }
+  },
+  "ms": 13738
+}

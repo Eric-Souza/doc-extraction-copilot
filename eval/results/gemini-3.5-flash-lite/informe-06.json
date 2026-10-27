@@ -1,0 +1,57 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2025,
+      "fontePagadora": {
+        "nome": "Cooperativa de Crédito Serra Azul",
+        "cnpj": "84.804.983/0001-09"
+      },
+      "beneficiario": {
+        "nome": "Camila Nogueira Siqueira",
+        "cpf": "917.929.573-86"
+      },
+      "isentos": [
+        {
+          "descricao": "LCI - Letra de Crédito Imobiliário",
+          "valor": 3076.54
+        },
+        {
+          "descricao": "LCA - Letra de Crédito do Agronegócio",
+          "valor": 4628.41
+        },
+        {
+          "descricao": "Rendimentos de caderneta de poupança",
+          "valor": 391.5
+        }
+      ],
+      "totalIsentos": 8096.45,
+      "exclusivos": [
+        {
+          "descricao": "CDB - Certificado de Depósito Bancário",
+          "valor": 6899.27
+        },
+        {
+          "descricao": "Tesouro Direto",
+          "valor": 1079.12
+        }
+      ],
+      "totalExclusivos": 7978.39,
+      "impostoRetido": 1407.95,
+      "bens": [
+        {
+          "descricao": "Saldo em conta corrente",
+          "saldoAnterior": 2783.74,
+          "saldoAtual": 644.72
+        },
+        {
+          "descricao": "Aplicações em renda fixa",
+          "saldoAnterior": 19491.92,
+          "saldoAtual": 56673.34
+        }
+      ],
+      "uncertain": []
+    }
+  },
+  "ms": 5567
+}

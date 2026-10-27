@@ -1,0 +1,225 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "knownType": false,
+  "classified": 36,
+  "documents": 36,
+  "fieldAccuracy": 0.9986979166666666,
+  "exactMatch": 0.9722222222222222,
+  "flagPrecision": 1,
+  "flagRecall": 1,
+  "silentErrors": 0,
+  "flaggedFields": 17,
+  "totalFields": 768,
+  "perField": [
+    {
+      "name": "linhaDigitavel",
+      "accuracy": 0.9166666666666666,
+      "count": 12
+    },
+    {
+      "name": "anoCalendario",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "banco",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "beneficiario",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.cpf",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.nome",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "beneficiarioDocumento",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "bens[].descricao",
+      "accuracy": 1,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAnterior",
+      "accuracy": 1,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAtual",
+      "accuracy": 1,
+      "count": 24
+    },
+    {
+      "name": "chaveAcesso",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "dataEmissao",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "destinatario.documento",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "destinatario.nome",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "emitente.cnpj",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "emitente.nome",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "emitente.uf",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "exclusivos[].descricao",
+      "accuracy": 1,
+      "count": 23
+    },
+    {
+      "name": "exclusivos[].valor",
+      "accuracy": 1,
+      "count": 23
+    },
+    {
+      "name": "fontePagadora.cnpj",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "fontePagadora.nome",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "impostoRetido",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "isentos[].descricao",
+      "accuracy": 1,
+      "count": 31
+    },
+    {
+      "name": "isentos[].valor",
+      "accuracy": 1,
+      "count": 31
+    },
+    {
+      "name": "itens[].descricao",
+      "accuracy": 1,
+      "count": 54
+    },
+    {
+      "name": "itens[].quantidade",
+      "accuracy": 1,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorTotal",
+      "accuracy": 1,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorUnitario",
+      "accuracy": 1,
+      "count": 54
+    },
+    {
+      "name": "nossoNumero",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "numero",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "pagador",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "pagadorDocumento",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "serie",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "totalExclusivos",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "totalIsentos",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valor",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorDesconto",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorFrete",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorOutros",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorProdutos",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorTotal",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "vencimento",
+      "accuracy": 1,
+      "count": 12
+    }
+  ]
+}

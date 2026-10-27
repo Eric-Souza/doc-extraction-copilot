@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Inter",
+      "beneficiario": "Clínica Bem Viver Ltda",
+      "beneficiarioDocumento": "61.364.831/0001-37",
+      "pagador": "Camila Azevedo Fontes",
+      "pagadorDocumento": "250.518.565-43",
+      "linhaDigitavel": "07799.34991 85899.015219 41518.535111 8 16570000284900",
+      "vencimento": "2026-12-11",
+      "valor": 2849,
+      "nossoNumero": "55883492334",
+      "uncertain": []
+    }
+  },
+  "ms": 16945
+}
