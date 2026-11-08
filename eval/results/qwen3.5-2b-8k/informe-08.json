@@ -1,0 +1,22 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Atlântico Investimentos S.A.",
+      "beneficiario": "Ana Clara Alves Siqueira",
+      "beneficiarioDocumento": "979.127.799-06",
+      "pagador": "98.937.491/0001-04",
+      "pagadorDocumento": "N/A",
+      "linhaDigitavel": "N/A",
+      "vencimento": "N/A",
+      "valor": 6772.01,
+      "nossoNumero": "98.937.491/0001-04",
+      "uncertain": [
+        "linhaDigitavel",
+        "vencimento",
+        "pagaadorDocumento"
+      ]
+    }
+  },
+  "ms": 3792
+}

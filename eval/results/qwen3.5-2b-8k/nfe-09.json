@@ -1,0 +1,28 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiario": "Luiza Ribeiro Barbosa",
+      "beneficiarioDocumento": "284.850.234-71",
+      "pagador": "N/A",
+      "pagadorDocumento": "N/A",
+      "linhaDigitavel": "3126 1002 7652 4800 0179 5500 2000",
+      "vencimento": "15/03/2026",
+      "valor": 1.758,
+      "nossoNumero": "N/A",
+      "uncertain": [
+        "CNPJ DO EMITENTE",
+        "DATA DA EMISSÃO",
+        "CNPJ / CPF",
+        "VALOR TOTAL DOS PRODUTOS",
+        "VALOR DO FRETE",
+        "DESCONTO",
+        "OUTRAS DESPESAS",
+        "VALOR TOTAL DA NOTA",
+        "NATUREZA DA OPERAÇÃO"
+      ]
+    }
+  },
+  "ms": 4336
+}

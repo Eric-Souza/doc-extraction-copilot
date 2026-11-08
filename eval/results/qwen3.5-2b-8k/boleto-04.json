@@ -1,0 +1,22 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Itaú",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "Distribuidora Rio Claro de Alimentos Ltda",
+      "pagador": "Mariana Moura Alves",
+      "pagadorDocumento": "Mariana Moura Alves",
+      "linhaDigitavel": "34194.55831 41778.637714 76519.555577 1 16230000308016",
+      "vencimento": "07/11/2026",
+      "valor": 3080,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário: 71.910.311/0001-36",
+        "CPF/CNPJ: 71.910.311/0001-36",
+        "Nosso Número: 93378095139"
+      ]
+    }
+  },
+  "ms": 4292
+}

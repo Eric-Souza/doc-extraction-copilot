@@ -37,7 +37,8 @@ const TODAY = new Date('2026-10-27T12:00:00Z')
 async function main() {
   const knownType = flag('known-type')
   const model = modelId()
-  const dir = `eval/results/${model}${knownType ? '-known-type' : ''}`
+  // Ollama names like qwen3.5:2b are not valid folder names on Windows
+  const dir = `eval/results/${model.replace(/[:/]/g, '-')}${process.env.AI_SCHEMA_IN_PROMPT ? '-schema-in-prompt' : ''}${knownType ? '-known-type' : ''}`
   await mkdir(dir, { recursive: true })
   const labels: Label[] = JSON.parse(await readFile('eval/data/labels.json', 'utf8'))
 

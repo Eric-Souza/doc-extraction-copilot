@@ -1,0 +1,94 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2026,
+      "fontePagadora": {
+        "nome": "DANFE",
+        "cnpj": "1 - SAÍDA"
+      },
+      "beneficiario": {
+        "nome": "Pedro Costa Fontes",
+        "cpf": "719.117.052-29"
+      },
+      "isentos": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "valor": 445
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 112.2
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "valor": 164.7
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 164.7
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "valor": 74.5
+        }
+      ],
+      "totalIsentos": 851.1,
+      "exclusivos": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "valor": 445
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 112.2
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "valor": 164.7
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 164.7
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "valor": 74.5
+        }
+      ],
+      "totalExclusivos": 851.1,
+      "impostoRetido": 19.07,
+      "bens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "saldoAnterior": 445,
+          "saldoAtual": 445
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "saldoAnterior": 112.2,
+          "saldoAtual": 112.2
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "saldoAnterior": 164.7,
+          "saldoAtual": 164.7
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "saldoAnterior": 164.7,
+          "saldoAtual": 164.7
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "saldoAnterior": 74.5,
+          "saldoAtual": 74.5
+        }
+      ],
+      "uncertain": [
+        "CNPJ / CPF do beneficiário"
+      ]
+    }
+  },
+  "ms": 10382
+}

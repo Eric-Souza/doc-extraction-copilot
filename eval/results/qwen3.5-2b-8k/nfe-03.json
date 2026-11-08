@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Escola Pequeno Saber Ltda",
+      "beneficiario": "Camila Lacerda Lacerda",
+      "beneficiarioDocumento": "Camila Lacerda Lacerda",
+      "pagador": "",
+      "pagadorDocumento": "",
+      "linhaDigitavel": "3326096PUM639000169550010000187481533782850",
+      "vencimento": "20/09/2026",
+      "valor": 1342.81,
+      "nossoNumero": "",
+      "uncertain": [
+        "pagaDocumento"
+      ]
+    }
+  },
+  "ms": 3906
+}

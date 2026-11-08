@@ -1,0 +1,68 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2026,
+      "fontePagadora": {
+        "nome": "DANFE",
+        "cnpj": "14.UEY.879/0001-39"
+      },
+      "beneficiario": {
+        "nome": "Luiza Lacerda Nogueira",
+        "cpf": "920.055.011-82"
+      },
+      "isentos": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "valor": 39.9
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "valor": 14.45
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 74.8
+        }
+      ],
+      "totalIsentos": 129.15,
+      "exclusivos": [
+        {
+          "descricao": "Valor do frete",
+          "valor": 39.99
+        },
+        {
+          "descricao": "Desconto",
+          "valor": 0
+        },
+        {
+          "descricao": "Outras despesas",
+          "valor": 0
+        }
+      ],
+      "totalExclusivos": 39.99,
+      "impostoRetido": null,
+      "bens": [
+        {
+          "descricao": "Cabo HDMI 2m",
+          "saldoAnterior": 0,
+          "saldoAtual": 39.9
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "saldoAnterior": 0,
+          "saldoAtual": 14.45
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "saldoAnterior": 0,
+          "saldoAtual": 74.8
+        }
+      ],
+      "uncertain": [
+        "Valor total dos produtos"
+      ]
+    }
+  },
+  "ms": 7563
+}

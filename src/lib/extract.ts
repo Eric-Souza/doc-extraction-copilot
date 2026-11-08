@@ -18,13 +18,14 @@ export interface Upload {
 
 export class NotSupportedError extends Error {}
 
-const SYSTEM = `You read Brazilian financial documents (boletos, DANFEs of NF-e, informes de rendimentos) from images and PDFs.
+// Exported for the fine-tune's training set (scripts/make-train-set.ts), which must ask exactly the same
+export const SYSTEM = `You read Brazilian financial documents (boletos, DANFEs of NF-e, informes de rendimentos) from images and PDFs.
 Copy every value exactly as printed. Never correct a digit, a check digit, a date or a total, even if it looks wrong: separate code checks them.
 Amounts are numbers in reais (R$ 1.234,56 is 1234.56). Dates are YYYY-MM-DD (15/03/2026 is 2026-03-15).
 A field the document does not show is null; never guess one.
 List in "uncertain" the path of every field you could not read clearly (blur, glare, cut off, handwriting) or had to infer.`
 
-const TYPE_HINTS: Record<DocType, string> = {
+export const TYPE_HINTS: Record<DocType, string> = {
   boleto: 'This is a boleto. The digit line (linha digitável) is the long number above the barcode.',
   nfe: 'This is a DANFE. Read every product line. The access key is the 44 digits near the barcode.',
   informe:
@@ -33,12 +34,16 @@ const TYPE_HINTS: Record<DocType, string> = {
 
 const filePart = (file: Upload) => ({ type: 'file' as const, data: file.data, mediaType: file.mediaType })
 
+export const CLASSIFY_SYSTEM = 'You classify Brazilian financial documents.'
+export const classifyText = (name = 'upload') => `Which kind of document is this? File: ${name}`
+export const extractText = (type: DocType, name = 'upload') => `${TYPE_HINTS[type]} File: ${name}`
+
 export async function classify(file: Upload, model: LanguageModel = getModel(), abortSignal?: AbortSignal): Promise<DocType | 'other'> {
   const { output } = await generateText({
     model,
     output: Output.object({ schema: ClassifySchema }),
-    system: 'You classify Brazilian financial documents.',
-    messages: [{ role: 'user', content: [{ type: 'text', text: `Which kind of document is this? File: ${file.name ?? 'upload'}` }, filePart(file)] }],
+    system: CLASSIFY_SYSTEM,
+    messages: [{ role: 'user', content: [{ type: 'text', text: classifyText(file.name) }, filePart(file)] }],
     abortSignal,
     timeout: { totalMs: 30_000 },
     maxRetries: 1,
@@ -58,7 +63,7 @@ export async function extract(
     // One call per type, so the union of the three schemas is only for the compiler
     output: Output.object({ schema: SCHEMAS[type] as z.ZodType<Extracted['data']> }),
     system: SYSTEM,
-    messages: [{ role: 'user', content: [{ type: 'text', text: `${TYPE_HINTS[type]} File: ${file.name ?? 'upload'}` }, filePart(file)] }],
+    messages: [{ role: 'user', content: [{ type: 'text', text: extractText(type, file.name) }, filePart(file)] }],
     abortSignal: opts.abortSignal,
     timeout: { totalMs: 90_000 },
     maxRetries: 2,

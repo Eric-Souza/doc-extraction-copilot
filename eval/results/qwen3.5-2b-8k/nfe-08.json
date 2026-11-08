@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiario": "Ana Clara Moura Alves",
+      "beneficiarioDocumento": "09.CET.839/0001-51",
+      "pagador": "Oficina Mecânica Dois Irmãos ME",
+      "pagadorDocumento": "2626 0909 CET8 3900 0151 5500 1000 0121 8714 8821 9286",
+      "linhaDigitavel": "2626 0909 CET8 3900 0151 5500 1000 0121 8714 8821 9286",
+      "vencimento": "15/03/2026",
+      "valor": 1577.68,
+      "nossoNumero": "000.012.187",
+      "uncertain": [
+        "CNPJ / CPF: 268.507.219-50"
+      ]
+    }
+  },
+  "ms": 4834
+}

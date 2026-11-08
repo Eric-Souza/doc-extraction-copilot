@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Pagável em qualquer banco até o vencimento",
+      "beneficiario": "Gás Bem Brasil Distribuidora",
+      "beneficiarioDocumento": "Gás Bem Brasil Distribuidora",
+      "pagador": "Gustavo Moura Lacerda",
+      "pagadorDocumento": "Gustavo Moura Lacerda",
+      "linhaDigitavel": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "vencimento": "01/11/2026",
+      "valor": 92.3,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário"
+      ]
+    }
+  },
+  "ms": 2879
+}

@@ -1,0 +1,68 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2026,
+      "fontePagadora": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "17.394.858/0001-00"
+      },
+      "beneficiario": {
+        "nome": "Ana Clara Ribeiro Moura",
+        "cpf": "967.459.695-05"
+      },
+      "isentos": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "valor": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "valor": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "valor": 521.5
+        }
+      ],
+      "totalIsentos": 1012.9,
+      "exclusivos": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "valor": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "valor": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "valor": 521.5
+        }
+      ],
+      "totalExclusivos": 1012.9,
+      "impostoRetido": null,
+      "bens": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "saldoAnterior": 197.4,
+          "saldoAtual": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "saldoAnterior": 294,
+          "saldoAtual": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "saldoAnterior": 521.5,
+          "saldoAtual": 521.5
+        }
+      ],
+      "uncertain": [
+        "CNPJ do Emitente"
+      ]
+    }
+  },
+  "ms": 7794
+}

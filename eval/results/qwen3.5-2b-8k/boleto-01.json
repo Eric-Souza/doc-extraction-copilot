@@ -1,0 +1,21 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Caixa | 104-0",
+      "beneficiario": "Escola Pequeno Saber Ltda",
+      "beneficiarioDocumento": "Escola Pequeno Saber Ltda",
+      "pagador": "Ana Clara Moura Teixeira",
+      "pagadorDocumento": "Ana Clara Moura Teixeira",
+      "linhaDigitavel": "10492.24262 83900.377397 66309.198241 1 16360000101831",
+      "vencimento": "20/11/2026",
+      "valor": 1018.31,
+      "nossoNumero": "One hundred and ninety-six thousand eight hundred seventy-five thousand four hundred seventy-seven five",
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário: 68.GAB.631/0001-33",
+        "CPF/CNPJ do Pagador: 950.227.997-23"
+      ]
+    }
+  },
+  "ms": 4247
+}

@@ -1,0 +1,22 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "A",
+      "beneficiario": "Gustavo Fontes Siqueira",
+      "beneficiarioDocumento": "406.710.005-19",
+      "pagador": "Ancora Distribuidora de Títulos Ltda",
+      "pagadorDocumento": "69.945.335/0001-89",
+      "linhaDigitavel": "7.861,29",
+      "vencimento": "2026-03-15",
+      "valor": 7861.29,
+      "nossoNumero": "406.710.005-19",
+      "uncertain": [
+        "CNPJ do beneficiário (CPF)",
+        "CNPJ do pagador",
+        "Data de vencimento"
+      ]
+    }
+  },
+  "ms": 3767
+}

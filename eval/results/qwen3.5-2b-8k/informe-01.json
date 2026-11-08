@@ -1,0 +1,21 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Horizonte Corretora de Valores S.A.",
+      "beneficiario": "Rafael Ribeiro Alves",
+      "beneficiarioDocumento": "811.215.835-55",
+      "pagador": "Horizonte Corretora de Valores S.A.",
+      "pagadorDocumento": "29.176.574/0001-05",
+      "linhaDigitavel": "1.234,56",
+      "vencimento": "15/03/2026",
+      "valor": 5010,
+      "nossoNumero": "12345678901234567890",
+      "uncertain": [
+        "linhaDigitavel",
+        "vencimento"
+      ]
+    }
+  },
+  "ms": 4004
+}

@@ -1,0 +1,225 @@
+{
+  "model": "qwen3.5-2b-8k",
+  "knownType": false,
+  "classified": 28,
+  "documents": 36,
+  "fieldAccuracy": 0.6627604166666666,
+  "exactMatch": 0.08333333333333333,
+  "flagPrecision": 0.9791666666666666,
+  "flagRecall": 0.17472118959107807,
+  "silentErrors": 222,
+  "flaggedFields": 48,
+  "totalFields": 768,
+  "perField": [
+    {
+      "name": "numero",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "vencimento",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "destinatario.documento",
+      "accuracy": 0.16666666666666666,
+      "count": 12
+    },
+    {
+      "name": "fontePagadora.nome",
+      "accuracy": 0.25,
+      "count": 12
+    },
+    {
+      "name": "exclusivos[].descricao",
+      "accuracy": 0.30434782608695654,
+      "count": 23
+    },
+    {
+      "name": "exclusivos[].valor",
+      "accuracy": 0.30434782608695654,
+      "count": 23
+    },
+    {
+      "name": "anoCalendario",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.cpf",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.nome",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "bens[].descricao",
+      "accuracy": 0.3333333333333333,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAnterior",
+      "accuracy": 0.3333333333333333,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAtual",
+      "accuracy": 0.3333333333333333,
+      "count": 24
+    },
+    {
+      "name": "emitente.cnpj",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "fontePagadora.cnpj",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "impostoRetido",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "totalExclusivos",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "totalIsentos",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "isentos[].descricao",
+      "accuracy": 0.3548387096774194,
+      "count": 31
+    },
+    {
+      "name": "isentos[].valor",
+      "accuracy": 0.3548387096774194,
+      "count": 31
+    },
+    {
+      "name": "banco",
+      "accuracy": 0.4166666666666667,
+      "count": 12
+    },
+    {
+      "name": "destinatario.nome",
+      "accuracy": 0.6666666666666666,
+      "count": 12
+    },
+    {
+      "name": "nossoNumero",
+      "accuracy": 0.6666666666666666,
+      "count": 12
+    },
+    {
+      "name": "chaveAcesso",
+      "accuracy": 0.75,
+      "count": 12
+    },
+    {
+      "name": "pagadorDocumento",
+      "accuracy": 0.75,
+      "count": 12
+    },
+    {
+      "name": "pagador",
+      "accuracy": 0.8333333333333334,
+      "count": 12
+    },
+    {
+      "name": "serie",
+      "accuracy": 0.8333333333333334,
+      "count": 12
+    },
+    {
+      "name": "valor",
+      "accuracy": 0.9166666666666666,
+      "count": 12
+    },
+    {
+      "name": "itens[].quantidade",
+      "accuracy": 0.9629629629629629,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorTotal",
+      "accuracy": 0.9629629629629629,
+      "count": 54
+    },
+    {
+      "name": "itens[].descricao",
+      "accuracy": 0.9814814814814815,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorUnitario",
+      "accuracy": 0.9814814814814815,
+      "count": 54
+    },
+    {
+      "name": "beneficiario",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "beneficiarioDocumento",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "dataEmissao",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "emitente.nome",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "emitente.uf",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "linhaDigitavel",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorDesconto",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorFrete",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorOutros",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorProdutos",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "valorTotal",
+      "accuracy": 1,
+      "count": 12
+    }
+  ]
+}

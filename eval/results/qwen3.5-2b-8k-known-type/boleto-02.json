@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Pagável em qualquer banco até o vencimento",
+      "beneficiario": "Companhia de Energia Vale do Sol",
+      "beneficiarioDocumento": "Companhia de Energia Vale do Sol",
+      "pagador": "Larissa Ribeiro Pacheco",
+      "pagadorDocumento": "Larissa Ribeiro Pacheco",
+      "linhaDigitavel": "82670000002-7 97144028951-2 04982378169-2 05166223193-8",
+      "vencimento": "12/12/2026",
+      "valor": 297.14,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário"
+      ]
+    }
+  },
+  "ms": 2693
+}

@@ -1,0 +1,86 @@
+{
+  "doc": {
+    "type": "informe",
+    "data": {
+      "anoCalendario": 2026,
+      "fontePagadora": {
+        "nome": "Academia Corpo em Movimento ME",
+        "cnpj": "15.743.890/0001-12"
+      },
+      "beneficiario": {
+        "nome": "João Teixeira Azevedo",
+        "cpf": "264.079.626-76"
+      },
+      "isentos": [
+        {
+          "descricao": "Detergente 500ml",
+          "valor": 31.79
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "valor": 274.5
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "valor": 149.6
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "valor": 68.94
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "valor": 219.89
+        }
+      ],
+      "totalIsentos": 761.21,
+      "exclusivos": [
+        {
+          "descricao": "Valor do frete",
+          "valor": 43.05
+        },
+        {
+          "descricao": "Desconto",
+          "valor": 26.56
+        },
+        {
+          "descricao": "Outras despesas",
+          "valor": 0
+        }
+      ],
+      "totalExclusivos": 71.59,
+      "impostoRetido": null,
+      "bens": [
+        {
+          "descricao": "Detergente 500ml",
+          "saldoAnterior": 31.79,
+          "saldoAtual": 31.79
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "saldoAnterior": 274.5,
+          "saldoAtual": 274.5
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "saldoAnterior": 149.6,
+          "saldoAtual": 149.6
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "saldoAnterior": 68.94,
+          "saldoAtual": 68.94
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "saldoAnterior": 219.89,
+          "saldoAtual": 219.89
+        }
+      ],
+      "uncertain": [
+        "CNPJ do Emittente"
+      ]
+    }
+  },
+  "ms": 9426
+}

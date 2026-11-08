@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Horizonte Corretora de Valores S.A.",
+      "beneficiario": "Mariana Pacheco Pacheco",
+      "beneficiarioDocumento": "028.857.326-95",
+      "pagador": "Horizonte Corretora de Valores S.A.",
+      "pagadorDocumento": "72.552.517/0001-02",
+      "linhaDigitavel": "434181",
+      "vencimento": "31/12/2024",
+      "valor": 434181,
+      "nossoNumero": "434181",
+      "uncertain": [
+        "CPF do beneficiário (028.857.326-95)"
+      ]
+    }
+  },
+  "ms": 3917
+}

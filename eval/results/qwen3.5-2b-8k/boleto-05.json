@@ -1,0 +1,22 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Inter",
+      "beneficiario": "Clínica Bem Viver Ltda",
+      "beneficiarioDocumento": "Clínica Bem Viver Ltda",
+      "pagador": "Camila Azevedo Fontes",
+      "pagadorDocumento": "Camila Azevedo Fontes",
+      "linhaDigitavel": "07799.34991 85899.015219 41518.535111 8 16570000284900",
+      "vencimento": "11/12/2026",
+      "valor": 2849,
+      "nossoNumero": "Well-known number",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário: 61.364.831/0001-37",
+        "CPF/CNPJ no documento: 61.364.831/0001-37",
+        "Data do documento: 27/09/2026"
+      ]
+    }
+  },
+  "ms": 4181
+}

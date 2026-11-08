@@ -1,0 +1,21 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Bradesco",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "Oficina Mecânica Dois Irmãos ME",
+      "pagador": "Beatriz Teixeira Fontes",
+      "pagadorDocumento": "Beatriz Teixeira Fontes",
+      "linhaDigitavel": "23798.26890 25339.729821 71372.903816 9 16350000306247",
+      "vencimento": "19/11/2026",
+      "valor": 2449,
+      "nossoNumero": "71001550323",
+      "uncertain": [
+        "CPF/CNPJ DO BENEFICIÁRIO: 03.SRZ.656/0001-98",
+        "ACEITE: N"
+      ]
+    }
+  },
+  "ms": 3088
+}

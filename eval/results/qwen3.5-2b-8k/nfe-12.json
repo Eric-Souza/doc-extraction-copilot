@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Clínica Bem Viver Ltda",
+      "beneficiario": "Gustavo Lacerda Nogueira",
+      "beneficiarioDocumento": "601.923.320-07",
+      "pagador": "N/A",
+      "pagadorDocumento": "N/A",
+      "linhaDigitavel": "4326 0844 3184 0000 0115 5500 1000 0193 5615 4390 5357",
+      "vencimento": "15/03/2026",
+      "valor": 1.127,
+      "nossoNumero": "N/A",
+      "uncertain": [
+        "CNPJ / CPF: 601.923.320-07"
+      ]
+    }
+  },
+  "ms": 4276
+}

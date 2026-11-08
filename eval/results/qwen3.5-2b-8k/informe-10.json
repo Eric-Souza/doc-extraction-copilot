@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Atlântico Investimentos S.A.",
+      "beneficiario": "Thiago Lacerda Pacheco",
+      "beneficiarioDocumento": "116.758.383-30",
+      "pagador": "46.EXF.482/0001-85",
+      "pagadorDocumento": "CNPJ",
+      "linhaDigitavel": "1.536,58",
+      "vencimento": "15/03/2026",
+      "valor": 7035.91,
+      "nossoNumero": "46.EXF.482/0001-85",
+      "uncertain": [
+        "CNPJ do beneficiário"
+      ]
+    }
+  },
+  "ms": 3817
+}

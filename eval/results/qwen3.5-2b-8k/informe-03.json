@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Atlântico Investimentos S.A.",
+      "beneficiario": "Gustavo Fontes Fontes",
+      "beneficiarioDocumento": "802.757.317-31",
+      "pagador": "80.413.843/0001-59",
+      "pagadorDocumento": "N/A",
+      "linhaDigitavel": "N/A",
+      "vencimento": "N/A",
+      "valor": 1176.82,
+      "nossoNumero": "N/A",
+      "uncertain": [
+        "linhaDigitavel"
+      ]
+    }
+  },
+  "ms": 3494
+}

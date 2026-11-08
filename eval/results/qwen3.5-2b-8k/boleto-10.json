@@ -1,0 +1,26 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco do Brasil",
+      "beneficiario": "Condomínio Residencial Jardim das Acácias",
+      "beneficiarioDocumento": "Condomínio Residencial Jardim das Acácias",
+      "pagador": "Gustavo Lacerda Ribeiro",
+      "pagadorDocumento": "Gustavo Lacerda Ribeiro",
+      "linhaDigitavel": "00198.96372 79129.613422 57226.097228 1 16150000162340",
+      "vencimento": "30/10/2026",
+      "valor": 1623,
+      "nossoNumero": "}",
+      "uncertain": [
+        "CPF/CNPJ DO BENEFICIÁRIO",
+        "ACEITE",
+        "DATA DO DOCUMENTO",
+        "ESPÉCIE DOC.",
+        "(-) DESCONTO",
+        "(+) MORA / MULTA",
+        "(+) VALOR COBRADO"
+      ]
+    }
+  },
+  "ms": 4457
+}

@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "A",
+      "beneficiario": "Mariana Teixeira Lacerda",
+      "beneficiarioDocumento": "651.564.123-00",
+      "pagador": "Ancora Distribuidora de Títulos Ltda",
+      "pagadorDocumento": "88.091.392/0001-92",
+      "linhaDigitavel": "5606,23",
+      "vencimento": "2026-03-15",
+      "valor": 11595,
+      "nossoNumero": "11.595,52",
+      "uncertain": [
+        "CNPJ"
+      ]
+    }
+  },
+  "ms": 3506
+}

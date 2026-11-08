@@ -1,0 +1,23 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Cooperativa de Crédito Serra Azul",
+      "beneficiario": "Felipe Ribeiro Siqueira",
+      "beneficiarioDocumento": "277.074.719-38",
+      "pagador": "Cooperativa de Crédito Serra Azul",
+      "pagadorDocumento": "18.891.172/0001-68",
+      "linhaDigitavel": "18.891.172/0001-68",
+      "vencimento": "31/12/2025",
+      "valor": 4841,
+      "nossoNumero": "18.891.172/0001-68",
+      "uncertain": [
+        "CNPJ do beneficiário (CPF)",
+        "Valor do imposto de renda retido na fonte",
+        "Saldo em conta corrente",
+        "Aplicações em renda fixa"
+      ]
+    }
+  },
+  "ms": 4475
+}

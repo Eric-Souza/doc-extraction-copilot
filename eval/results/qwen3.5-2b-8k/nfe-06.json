@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Livraria Página Aberta Ltda",
+      "beneficiario": "Mariana Alves Siqueira",
+      "beneficiarioDocumento": "Mariana Alves Siqueira",
+      "pagador": "ME ou EPP optante pelo Simples Nacional",
+      "pagadorDocumento": "ME ou EPP optante pelo Simples Nacional",
+      "linhaDigitavel": "26260811447906000175550010000921171258862022",
+      "vencimento": "16/08/2026",
+      "valor": 696.21,
+      "nossoNumero": "Nº 000.092.117",
+      "uncertain": [
+        "CNPJ / CPF: 838.803.282-85"
+      ]
+    }
+  },
+  "ms": 4318
+}

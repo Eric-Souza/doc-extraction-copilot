@@ -1,0 +1,21 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiario": "Luiza Nogueira Alves",
+      "beneficiarioDocumento": "Luiza Nogueira Alves",
+      "pagador": "Oficina Mecânica Dois Irmãos ME",
+      "pagadorDocumento": "Oficina Mecânica Dois Irmãos ME",
+      "linhaDigitavel": "3126 0969 JDU9 6700 0173 5500 2000\n0729 0919 4342 9460",
+      "vencimento": "13/09/2026",
+      "valor": 1648.39,
+      "nossoNumero": "Nº 000.072.909 SÉRIE 2",
+      "uncertain": [
+        "CNPJ / CPF: 307.014.765-83",
+        "DATA DA EMISSÃO: 13/09/2026"
+      ]
+    }
+  },
+  "ms": 4648
+}

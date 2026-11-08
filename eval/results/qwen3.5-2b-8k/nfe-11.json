@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiario": "Pedro Ribeiro Teixeira",
+      "beneficiarioDocumento": "Pedro Ribeiro Teixeira",
+      "pagador": "ME ou EPP optante pelo Simples Nacional",
+      "pagadorDocumento": "ME ou EPP optante pelo Simples Nacional",
+      "linhaDigitavel": "29260959837253000167555020000054481864039580",
+      "vencimento": "09/09/2026",
+      "valor": 539.89,
+      "nossoNumero": "000.005.448",
+      "uncertain": [
+        "CNPJ / CPF: 978.437.681-49"
+      ]
+    }
+  },
+  "ms": 4147
+}

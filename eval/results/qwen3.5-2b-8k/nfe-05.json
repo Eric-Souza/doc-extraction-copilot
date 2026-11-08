@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Hortifruti Vale Verde Ltda",
+      "beneficiario": "Luiza Pacheco Nogueira",
+      "beneficiarioDocumento": "Luiza Pacheco Nogueira",
+      "pagador": "N/A",
+      "pagadorDocumento": "N/A",
+      "linhaDigitavel": "42260824137939000160550020000989201100098746",
+      "vencimento": "2026-03-15",
+      "valor": 1322.9,
+      "nossoNumero": "N/A",
+      "uncertain": [
+        "CNPJ/CPF do beneficiário"
+      ]
+    }
+  },
+  "ms": 4022
+}

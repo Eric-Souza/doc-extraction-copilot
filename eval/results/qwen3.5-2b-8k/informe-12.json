@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Horizonte Corretora de Valores S.A.",
+      "beneficiario": "Mariana Pacheco Teixeira",
+      "beneficiarioDocumento": "790.989.303-52",
+      "pagador": "40.382.545/0001-24",
+      "pagadorDocumento": "",
+      "linhaDigitavel": "",
+      "vencimento": "31/12/2025",
+      "valor": 2322,
+      "nossoNumero": "1.084,90",
+      "uncertain": [
+        "pagadorDocumento"
+      ]
+    }
+  },
+  "ms": 3531
+}

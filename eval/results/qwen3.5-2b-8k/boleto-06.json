@@ -1,0 +1,21 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco do Brasil | 001-9",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "Distribuidora Rio Claro de Alimentos Ltda",
+      "pagador": "Ana Clara Costa Barbosa CPF: 874.077.878-91",
+      "pagadorDocumento": "Ana Clara Costa Barbosa CPF: 22.967.066/0001-98",
+      "linhaDigitavel": "00197.12215 69255.408341 43254.614894 1 15900000117527",
+      "vencimento": "05/10/2026",
+      "valor": 1175,
+      "nossoNumero": "}",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário (linha digitável)",
+        "CPF/CNPJ do beneficiário (linha digitável)"
+      ]
+    }
+  },
+  "ms": 4447
+}

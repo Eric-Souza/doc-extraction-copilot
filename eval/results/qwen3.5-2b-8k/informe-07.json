@@ -1,0 +1,20 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Atlântico Investimentos S.A.",
+      "beneficiario": "Camila Siqueira Nogueira",
+      "beneficiarioDocumento": "632.124.967-03",
+      "pagador": "Banco Atlântico Investimentos S.A.",
+      "pagadorDocumento": "40.462.547/0001-23",
+      "linhaDigitavel": "18.966,23\n1.049,13\n2.015,36\n2.982,44\n964,96\n3.947,40\n696,60",
+      "vencimento": "2026-03-15",
+      "valor": 2015.36,
+      "nossoNumero": "18.966,23\n1.049,13\n2.015,36\n2.982,44\n964,96\n3.947,40\n696,60",
+      "uncertain": [
+        "vencimento"
+      ]
+    }
+  },
+  "ms": 4682
+}

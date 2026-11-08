@@ -1,0 +1,18 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": null,
+      "beneficiario": "Gás Bem Brasil Distribuidora",
+      "beneficiarioDocumento": "88.YTH.375/0001-69",
+      "pagador": "Gás Bem Brasil Distribuidora",
+      "pagadorDocumento": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "linhaDigitavel": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "vencimento": "01/11/2026",
+      "valor": 92.3,
+      "nossoNumero": null,
+      "uncertain": []
+    }
+  },
+  "ms": 2924
+}

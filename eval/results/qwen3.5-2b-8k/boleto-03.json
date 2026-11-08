@@ -1,0 +1,22 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Inter",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "Oficina Mecânica Dois Irmãos ME",
+      "pagador": "Gustavo Lacerda Costa",
+      "pagadorDocumento": "Gustavo Lacerda Costa",
+      "linhaDigitavel": "07799.35568 85467.134418 13044.122664 3 16550000119445",
+      "vencimento": "09/12/2026",
+      "valor": 1194.45,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário: 32.420.191/0001-37",
+        "CPF/CNPJ do beneficiárioDocumento: 32.420.191/0001-37",
+        "ACEITE: N"
+      ]
+    }
+  },
+  "ms": 4010
+}
