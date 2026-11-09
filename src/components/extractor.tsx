@@ -1,6 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import type { Reask } from '@/lib/extract'
 import { fieldLabel, formatAmount, getPath, isMoneyField, parseAmount, setPath } from '@/lib/fields'
 import { type FieldReport, reviewDocument, type Status } from '@/lib/review'
 import { DOC_LABELS, DOC_TYPES, type DocType, type Extracted } from '@/lib/schemas'
@@ -9,6 +10,8 @@ interface Result {
   doc: Extracted
   model: string
   ms: number
+  /** The guard sent the first reading back to the model */
+  reask?: Reask
 }
 
 const SAMPLES = [
@@ -107,7 +110,7 @@ export function Extractor() {
       const res = await fetch('/api/extract', { method: 'POST', body: form })
       const body = await res.json()
       if (!res.ok) throw new Error(body.error ?? 'Something went wrong.')
-      setResult({ doc: { type: body.type, data: body.data }, model: body.model, ms: body.ms })
+      setResult({ doc: { type: body.type, data: body.data }, model: body.model, ms: body.ms, reask: body.reask })
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e))
     } finally {
@@ -259,6 +262,14 @@ export function Extractor() {
                   {review.fields.filter((f) => f.status === 'ok').length} of {review.fields.length} fields confirmed by a check · read by {result.model} in{' '}
                   {(result.ms / 1000).toFixed(1)}s
                 </div>
+                {result.reask && (
+                  <div className="mt-1 text-xs text-zinc-500" data-testid="reask">
+                    Read twice: the first reading failed {result.reask.issues.length} check{result.reask.issues.length === 1 ? '' : 's'}
+                    {result.reask.changed.length
+                      ? `, and the second changed ${result.reask.changed.map(fieldLabel).join(', ')}`
+                      : ', and the second kept every value'}
+                  </div>
+                )}
               </div>
               <button
                 type="button"

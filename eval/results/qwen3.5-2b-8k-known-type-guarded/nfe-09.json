@@ -1,0 +1,189 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "3126 1002 7652 4800 0179 5500 2000\n0155 8016 2792 7570",
+      "numero": 0,
+      "serie": 2,
+      "dataEmissao": "13/10/2026",
+      "emitente": {
+        "nome": "Distribuidora Rio Claro de Alimentos Ltda",
+        "cnpj": "284.850.234-71",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Luiza Ribeiro Barbosa",
+        "documento": "284.850.234-71"
+      },
+      "itens": [
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 11,
+          "valorUnitario": 74,
+          "valorTotal": 819.5
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 9,
+          "valorUnitario": 27,
+          "valorTotal": 247.05
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 9,
+          "valorUnitario": 42,
+          "valorTotal": 378
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 2,
+          "valorUnitario": 27,
+          "valorTotal": 54.9
+        }
+      ],
+      "valorProdutos": 1746.5,
+      "valorFrete": 12.48,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1758.98,
+      "uncertain": [
+        "CNPJ do Emittente",
+        "CPF do CPF"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "13/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "284.850.234-71 is not a valid CPF"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 02.765.248/0001-79"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 15580"
+      },
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "the access key says 2026-10"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "11 × R$ 74,00 is R$ 814,00, not R$ 819,50"
+      },
+      {
+        "paths": [
+          "itens[1].quantidade",
+          "itens[1].valorUnitario",
+          "itens[1].valorTotal"
+        ],
+        "detail": "9 × R$ 27,00 is R$ 243,00, not R$ 247,05"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "2 × R$ 27,00 is R$ 54,00, not R$ 54,90"
+      },
+      {
+        "paths": [
+          "valorProdutos",
+          "itens[0].valorTotal",
+          "itens[1].valorTotal",
+          "itens[3].valorTotal"
+        ],
+        "detail": "the lines add up to R$ 1.499,45, not R$ 1.746,50"
+      }
+    ],
+    "changed": [],
+    "after": [
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "13/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "284.850.234-71 is not a valid CPF"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 02.765.248/0001-79"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 15580"
+      },
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "the access key says 2026-10"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "11 × R$ 74,00 is R$ 814,00, not R$ 819,50"
+      },
+      {
+        "paths": [
+          "itens[1].quantidade",
+          "itens[1].valorUnitario",
+          "itens[1].valorTotal"
+        ],
+        "detail": "9 × R$ 27,00 is R$ 243,00, not R$ 247,05"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "2 × R$ 27,00 is R$ 54,00, not R$ 54,90"
+      },
+      {
+        "paths": [
+          "valorProdutos",
+          "itens[0].valorTotal",
+          "itens[1].valorTotal",
+          "itens[3].valorTotal"
+        ],
+        "detail": "the lines add up to R$ 1.499,45, not R$ 1.746,50"
+      }
+    ]
+  },
+  "ms": 5868
+}

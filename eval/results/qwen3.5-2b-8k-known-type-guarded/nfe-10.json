@@ -1,0 +1,151 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "3126 1097 6165 0200 0183 5500 2000\n0432 0511 3272 4556",
+      "numero": 0,
+      "serie": 2,
+      "dataEmissao": "19/10/2026",
+      "emitente": {
+        "nome": "Academia Corpo em Movimento ME",
+        "cnpj": "97.616.502/0001-83",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "João Teixeira Azevedo",
+        "documento": "264.079.626-76"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 11,
+          "valorUnitario": 2.89,
+          "valorTotal": 31.79
+        },
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 8,
+          "valorUnitario": 18.7,
+          "valorTotal": 149.6
+        },
+        {
+          "descricao": "Lâmpada LED 9W",
+          "quantidade": 6,
+          "valorUnitario": 11.49,
+          "valorTotal": 68.94
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 11,
+          "valorUnitario": 19.99,
+          "valorTotal": 219.89
+        }
+      ],
+      "valorProdutos": 744.72,
+      "valorFrete": 43.05,
+      "valorDesconto": 26.56,
+      "valorOutros": 0,
+      "valorTotal": 761.21,
+      "uncertain": [
+        "CNPJ do Emitente",
+        "CPF do Destinatário"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "19/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 43205"
+      },
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "the access key says 2026-10"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "11 × R$ 2,00 is R$ 22,00, not R$ 31,79"
+      },
+      {
+        "paths": [
+          "itens[1].quantidade",
+          "itens[1].valorUnitario",
+          "itens[1].valorTotal"
+        ],
+        "detail": "10 × R$ 27,00 is R$ 270,00, not R$ 274,50"
+      },
+      {
+        "paths": [
+          "itens[2].quantidade",
+          "itens[2].valorUnitario",
+          "itens[2].valorTotal"
+        ],
+        "detail": "8 × R$ 18,00 is R$ 144,00, not R$ 149,60"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "6 × R$ 11,00 is R$ 66,00, not R$ 68,94"
+      },
+      {
+        "paths": [
+          "itens[4].quantidade",
+          "itens[4].valorUnitario",
+          "itens[4].valorTotal"
+        ],
+        "detail": "11 × R$ 19,00 is R$ 209,00, not R$ 219,89"
+      }
+    ],
+    "changed": [
+      "itens[0].valorUnitario",
+      "itens[1].valorUnitario",
+      "itens[2].valorUnitario",
+      "itens[3].valorUnitario",
+      "itens[4].valorUnitario"
+    ],
+    "after": [
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "19/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 43205"
+      },
+      {
+        "paths": [
+          "dataEmissao"
+        ],
+        "detail": "the access key says 2026-10"
+      }
+    ]
+  },
+  "ms": 6723
+}

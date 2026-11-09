@@ -1,0 +1,90 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco do Brasil | 001-9",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "Distribuidora Rio Claro de Alimentos Ltda",
+      "pagador": "Ana Clara Costa Barbosa CPF: 874.077.878-91",
+      "pagadorDocumento": "Ana Clara Costa Barbosa CPF: 22.967.066/0001-98",
+      "linhaDigitavel": "00197.12215 69255.408341 43254.614894 1 15900000117527",
+      "vencimento": "05/10/2026",
+      "valor": 1175,
+      "nossoNumero": "41983640477",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário (linha digitável)",
+        "CPF/CNPJ do beneficiário (linha digitável)"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Distribuidora Rio Claro de Alimentos Ltda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Ana Clara Costa Barbosa CPF: 22.967.066/0001-98 is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "05/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 1.175,27"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-10-05"
+      }
+    ],
+    "changed": [
+      "nossoNumero"
+    ],
+    "after": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Distribuidora Rio Claro de Alimentos Ltda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Ana Clara Costa Barbosa CPF: 22.967.066/0001-98 is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "05/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 1.175,27"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-10-05"
+      }
+    ]
+  },
+  "ms": 3324
+}

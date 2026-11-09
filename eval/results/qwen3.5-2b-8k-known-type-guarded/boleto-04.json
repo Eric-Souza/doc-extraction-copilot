@@ -1,0 +1,89 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Itaú",
+      "beneficiario": "Distribuidora Rio Claro de Alimentos Ltda",
+      "beneficiarioDocumento": "Distribuidora Rio Claro de Alimentos Ltda",
+      "pagador": "Mariana Moura Alves",
+      "pagadorDocumento": "Mariana Moura Alves",
+      "linhaDigitavel": "34194.55831 41778.637714 76519.555577 1 16230000308016",
+      "vencimento": "07/11/2026",
+      "valor": 3080,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário: 71.910.311/0001-36",
+        "CPF/CNPJ: 71.910.311/0001-36",
+        "Nosso Número: 93378095139"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Distribuidora Rio Claro de Alimentos Ltda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Mariana Moura Alves is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "07/11/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 3.080,16"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-11-07"
+      }
+    ],
+    "changed": [],
+    "after": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Distribuidora Rio Claro de Alimentos Ltda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Mariana Moura Alves is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "07/11/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 3.080,16"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-11-07"
+      }
+    ]
+  },
+  "ms": 2866
+}

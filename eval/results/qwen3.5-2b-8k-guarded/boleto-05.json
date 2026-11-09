@@ -1,0 +1,69 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Inter",
+      "beneficiario": "Clínica Bem Viver Ltda",
+      "beneficiarioDocumento": "61.364.831/0001-37",
+      "pagador": "Camila Azevedo Fontes",
+      "pagadorDocumento": "250.518.565-43",
+      "linhaDigitavel": "07799.34991 85899.015219 41518.535111 8 16570000284900",
+      "vencimento": "11/12/2026",
+      "valor": 2849,
+      "nossoNumero": "55883492334",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário: 61.364.831/0001-37",
+        "CPF/CNPJ no documento: 61.364.831/0001-37",
+        "Data do documento: 27/09/2026"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Clínica Bem Viver Ltda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Camila Azevedo Fontes is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "11/12/2026 is not a date"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-12-11"
+      }
+    ],
+    "changed": [
+      "beneficiarioDocumento",
+      "pagadorDocumento",
+      "nossoNumero"
+    ],
+    "after": [
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "11/12/2026 is not a date"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-12-11"
+      }
+    ]
+  },
+  "ms": 3450
+}

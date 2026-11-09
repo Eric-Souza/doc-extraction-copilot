@@ -1,0 +1,103 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "26260928KAP3500107550010000568371849208964",
+      "numero": 0,
+      "serie": 1,
+      "dataEmissao": "2026-09-12",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "28.KAP.350/0001-07",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Ana Clara Ribeiro Moura",
+        "documento": "967.459.695-05"
+      },
+      "itens": [
+        {
+          "descricao": "Caneta esferográfica azul cx 50",
+          "quantidade": 6,
+          "valorUnitario": 32.9,
+          "valorTotal": 197.4
+        },
+        {
+          "descricao": "Filtro de óleo",
+          "quantidade": 7,
+          "valorUnitario": 42,
+          "valorTotal": 294
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 7,
+          "valorUnitario": 74.5,
+          "valorTotal": 521.5
+        },
+        {
+          "descricao": "Mouse sem fio",
+          "quantidade": 5,
+          "valorUnitario": 74.5,
+          "valorTotal": 372.5
+        }
+      ],
+      "valorProdutos": 1385.4,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1385.4,
+      "uncertain": [
+        "CNPJ do Emitente",
+        "Data de Emissão"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "chaveAcesso"
+        ],
+        "detail": "the access key has 42 characters, expected 44"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "6 × R$ 32,00 is R$ 192,00, not R$ 197,40"
+      },
+      {
+        "paths": [
+          "itens[2].quantidade",
+          "itens[2].valorUnitario",
+          "itens[2].valorTotal"
+        ],
+        "detail": "7 × R$ 74,00 is R$ 518,00, not R$ 521,50"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "5 × R$ 74,00 is R$ 370,00, not R$ 372,50"
+      }
+    ],
+    "changed": [
+      "itens[0].valorUnitario",
+      "itens[2].valorUnitario",
+      "itens[3].valorUnitario"
+    ],
+    "after": [
+      {
+        "paths": [
+          "chaveAcesso"
+        ],
+        "detail": "the access key has 42 characters, expected 44"
+      }
+    ]
+  },
+  "ms": 5796
+}

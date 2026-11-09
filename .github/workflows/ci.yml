@@ -18,6 +18,8 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
+      # The guard's parity test runs on these: they must match what review.ts flags today
+      - run: npx tsx scripts/guard-fixtures.ts && git diff --exit-code guard/tests/fixtures.json
       - run: npx playwright install --with-deps chromium
       # Builds the app, then runs it against a scripted model, so no API key is needed
       - run: npm run test:e2e
@@ -27,3 +29,14 @@ jobs:
           name: playwright-report
           path: test-results/
           retention-days: 7
+
+  guard:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: guard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      # The checks as Guardrails validators must flag the same fields as review.ts
+      - run: uv run pytest -q

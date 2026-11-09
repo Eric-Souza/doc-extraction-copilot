@@ -1,0 +1,95 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco do Brasil",
+      "beneficiario": "Condomínio Residencial Jardim das Acácias",
+      "beneficiarioDocumento": "Condomínio Residencial Jardim das Acácias",
+      "pagador": "Gustavo Lacerda Ribeiro",
+      "pagadorDocumento": "Gustavo Lacerda Ribeiro",
+      "linhaDigitavel": "00198.96372 79129.613422 57226.097228 1 16150000162340",
+      "vencimento": "30/10/2026",
+      "valor": 1623,
+      "nossoNumero": "23610191060",
+      "uncertain": [
+        "CPF/CNPJ DO BENEFICIÁRIO",
+        "ACEITE",
+        "DATA DO DOCUMENTO",
+        "ESPÉCIE DOC.",
+        "(-) DESCONTO",
+        "(+) MORA / MULTA",
+        "(+) VALOR COBRADO"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Condomínio Residencial Jardim das Acácias is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Gustavo Lacerda Ribeiro is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "30/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 1.623,40"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-10-30"
+      }
+    ],
+    "changed": [
+      "nossoNumero"
+    ],
+    "after": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Condomínio Residencial Jardim das Acácias is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Gustavo Lacerda Ribeiro is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "30/10/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 1.623,40"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-10-30"
+      }
+    ]
+  },
+  "ms": 2676
+}
