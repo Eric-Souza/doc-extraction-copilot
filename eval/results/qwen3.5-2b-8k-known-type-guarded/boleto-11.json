@@ -1,0 +1,79 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Bradesco",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "03.SRZ.656/0001-98",
+      "pagador": "Beatriz Teixeira Fontes",
+      "pagadorDocumento": "595.469.014-66",
+      "linhaDigitavel": "23798.26890 25339.729821 71372.903816 9 16350000306247",
+      "vencimento": "19/11/2026",
+      "valor": 2449,
+      "nossoNumero": "71001550323",
+      "uncertain": [
+        "CPF/CNPJ DO BENEFICIÁRIO: 03.SRZ.656/0001-98",
+        "ACEITE: N"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Oficina Mecânica Dois Irmãos ME is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Beatriz Teixeira Fontes is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "19/11/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 3.062,47"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-11-19"
+      }
+    ],
+    "changed": [
+      "beneficiarioDocumento",
+      "pagadorDocumento"
+    ],
+    "after": [
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "19/11/2026 is not a date"
+      },
+      {
+        "paths": [
+          "valor"
+        ],
+        "detail": "the digit line says R$ 3.062,47"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-11-19"
+      }
+    ]
+  },
+  "ms": 2161
+}

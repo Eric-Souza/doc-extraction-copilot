@@ -1,0 +1,55 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Inter",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "77.465.646/0001-79",
+      "pagador": "Luiza Siqueira Lacerda",
+      "pagadorDocumento": "747.760.526-10",
+      "linhaDigitavel": "07799.36046 30285.648926 35974.024685 9 16180000133312",
+      "vencimento": "2026-11-02",
+      "valor": 1333.12,
+      "nossoNumero": null,
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário: 77.465.646/0001-79",
+        "CPF/CNPJ do Pagador: 747.760.526-10"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Oficina Mecânica Dois Irmãos ME is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Luiza Siqueira Lacerda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "02/11/2026 is not a date"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-11-02"
+      }
+    ],
+    "changed": [
+      "beneficiarioDocumento",
+      "pagadorDocumento",
+      "vencimento"
+    ],
+    "after": []
+  },
+  "ms": 2926
+}

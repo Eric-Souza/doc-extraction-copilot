@@ -1,0 +1,54 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Pagável em qualquer banco até o vencimento",
+      "beneficiario": "Gás Bem Brasil Distribuidora",
+      "beneficiarioDocumento": "88.YTH.375/0001-69",
+      "pagador": "Gustavo Moura Lacerda",
+      "pagadorDocumento": "923.399.330-21",
+      "linhaDigitavel": "83660000000-1 92308221443-1 44285431675-3 98515209041-3",
+      "vencimento": "01/11/2026",
+      "valor": 92.3,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do Beneficiário"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Gás Bem Brasil Distribuidora is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Gustavo Moura Lacerda is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "01/11/2026 is not a date"
+      }
+    ],
+    "changed": [
+      "beneficiarioDocumento",
+      "pagadorDocumento"
+    ],
+    "after": [
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "01/11/2026 is not a date"
+      }
+    ]
+  },
+  "ms": 2874
+}

@@ -14,6 +14,8 @@ It is part of a small personal-finance set, next to [Renda Fixa Copilot](https:/
 - **Checks in code, not in the prompt:** the model is told to copy what is printed, never to fix it. Deciding whether a digit or a total is right is done by deterministic code
 - **Review only what needs it:** every field starts as *not checked*, a passing check marks it *checked*, and a failing check or the model's own doubt marks it *review*. The JSON can only be downloaded once nothing is left to review
 - **An eval set with known answers:** 36 synthetic documents (clean PNGs, PDFs and phone-photo-style JPEGs), scored per field, with planted inconsistencies to measure whether the checks catch them
+- **Guardrails that read twice:** the same checks as [Guardrails AI](https://github.com/guardrails-ai/guardrails) validators in a Python server. A reading that fails one goes back to the model once, with what failed, and the eval measures what that second reading fixes and what it breaks
+- **Traces and experiments in Phoenix:** every model call, guard call and validator in one [Phoenix](https://github.com/Arize-ai/phoenix) trace, and each eval run as an experiment on the eval set
 
 ## The checks
 
@@ -43,6 +45,32 @@ When a total doesn't add up, the lines that already passed their own quantity ×
 
 ![A phone-photo-style DANFE from the eval set](docs/photo-sample.jpg)
 
+## Guardrails: reading twice
+
+The checks also run as [Guardrails AI](https://github.com/guardrails-ai/guardrails) validators, in a small server in [`guard/`](guard). Each check is a custom validator (`br/document-id`, `br/digit-line`, `br/nfe-key`, `br/nfe-totals`, ...) on a Pydantic model per document type. When `GUARD_URL` is set, the API route sends each reading to the server's `/guards/{type}/validate`. If a check fails, the model gets the document again in the same conversation: its first answer, then the failed checks, with an instruction to re-read those fields digit by digit, keep a value the document really prints, and never change one just to make a check pass. The second reading is checked again, and the page says what it changed.
+
+- **One set of checks, two languages:** the browser still runs `review.ts`, which decides what you review. The guard decides whether to re-ask. A parity test (`guard/tests/test_parity.py`) runs the guard on 328 documents (the true values, planted errors included, and every cached model reading) and asserts that it flags exactly the fields `review.ts` flags. CI regenerates those fixtures and fails if they drift
+- **Validators never fix a value:** they all use `on_fail="noop"`. A tampered boleto has to stay as printed, so the fix is the model's to make or not
+- **Fails open:** if the guard is down, the first reading is returned and the browser's checks still flag it
+
+`npm run eval -- --guard` measures it. The first reading comes from the plain run's cache, so only documents that fail a check cost a second call:
+
+| Model | Re-read | Fields changed | Fixed | Broken | Field accuracy | Silent errors | Planted errors kept |
+|---|---|---|---|---|---|---|---|
+| `gemini-3.5-flash-lite` | 7 of 36 | 0 | 0 | 0 | 99.9% → 99.9% | 0 → 0 | 6 of 6 |
+| Qwen3.5-2B on Ollama (type given) | 28 of 36 | 39 | 38 | 1 | 83.3% → 88.2% | 38 → 31 | 3 of 4 |
+
+- Gemini's seven re-reads were its one misread (a zero dropped from a utility boleto's digit line, on a rotated photo) and the six planted errors. It kept every value, which is right for the planted ones: a second look didn't recover the zero
+- The small local model gains most: CPFs and CNPJs read as names, dates left as `12/12/2026`, unit prices that don't multiply out. It fixed 38 fields. 30 had been sent to review, and 8 were silent errors no check had flagged, fixed because the model read the whole document again
+- The one field it broke is the risk of a re-ask: on boleto-12, whose printed amount was tampered, it changed the amount to match the digit line, despite being told not to. The check passes after that, so nothing flags it: a new silent error, and planted errors caught drop from 6/6 to 5/6. Of the 4 planted errors it had read right, the other 3 stayed as printed. A re-ask is worth it on a weak reader, but a strong one gains nothing, and on either the planted cases show it can talk a model into hiding the error it was meant to surface
+- Guardrails 0.11 drops null fields from its output, and then counts a failure on the whole document as fixed, so `validationPassed` can be `true` with a failed check. The app reads the failed validator summaries instead
+
+## Tracing with Phoenix
+
+With `PHOENIX_COLLECTOR_ENDPOINT` set (`http://localhost:6006` for a local `phoenix serve`), the app (`src/instrumentation.ts`) and the eval send OpenTelemetry spans to [Phoenix](https://github.com/Arize-ai/phoenix): the AI SDK's model calls through [OpenInference](https://github.com/Arize-ai/openinference)'s span processor, and a `guard` span per validate call. The guard server traces itself (Guardrails 0.11 emits a GUARDRAIL span per validator) and reads the `traceparent` header, so one document is one trace: classify, read, guard and its validators, read again, guard again.
+
+`npx tsx scripts/phoenix-experiments.ts <run> <run> ...` uploads the eval set as a Phoenix dataset and logs cached runs from `eval/results/` as experiments, scored with the same code as the eval: field accuracy, silent errors, exact match, planted error caught, and whether the guard had the document read again. No model is called, so comparing the plain and guarded runs document by document costs nothing.
+
 ## Stack
 
 | Area | Choice |
@@ -50,7 +78,8 @@ When a total doesn't add up, the lines that already passed their own quantity ×
 | Framework | Next.js 16 (App Router), React 19, TypeScript |
 | AI | Vercel AI SDK 6 (`ai`, `@ai-sdk/google`) |
 | Model | Gemini 3.5 Flash Lite (free tier, 500 requests a day) |
-| Validation | Zod |
+| Validation | Zod; Guardrails AI 0.11 server (Python, FastAPI) |
+| Tracing | OpenTelemetry, OpenInference, Arize Phoenix |
 | UI | Tailwind CSS |
 | Tests | Vitest, Playwright |
 
@@ -70,7 +99,10 @@ doc-extraction-copilot/
       templates.ts            # HTML for boletos, DANFEs and informes
       score.ts                # per-field scoring and flag precision/recall
       mock-model.ts           # scripted model for the end-to-end tests
-  scripts/                    # make-dataset.ts, eval.ts
+      guard.ts                # calls the guard server, and the re-ask message
+      tracing.ts              # OpenTelemetry to Phoenix
+  guard/                      # Guardrails AI server: the checks as validators, parity test
+  scripts/                    # make-dataset.ts, eval.ts, guard-fixtures.ts, phoenix-experiments.ts
   eval/data/                  # the 36 documents and their labels
   eval/results/               # reports per model
   tests/                      # Vitest
@@ -86,14 +118,26 @@ npm run dev                  # http://localhost:3000
 npm test                     # unit tests: no API key needed
 npm run test:e2e             # Playwright against the production build and a scripted model
 npm run dataset              # regenerate the eval documents
-node --env-file=.env.local node_modules/tsx/dist/cli.mjs scripts/eval.ts   # run the eval (--known-type skips classification)
+node --env-file=.env.local node_modules/tsx/dist/cli.mjs scripts/eval.ts   # run the eval (--known-type skips classification, --guard re-asks)
 ```
+
+The guard, with [uv](https://docs.astral.sh/uv/):
+
+```bash
+cd guard
+uv run pytest                                              # parity with review.ts
+PYTHONPATH=. uv run uvicorn serve:app --port 8100           # then GUARD_URL=http://localhost:8100
+```
+
+It runs under uvicorn rather than `guardrails start`, which pings Guardrails' servers before loading the config; `doc_guard/__init__.py` also turns their usage metrics off.
 
 | Variable | Default | What it does |
 |---|---|---|
 | `GOOGLE_GENERATIVE_AI_API_KEY` | none | From [AI Studio](https://aistudio.google.com/apikey) |
 | `AI_MODEL` | `gemini-3.5-flash-lite` | Any Gemini model with vision |
 | `AI_PROVIDER` | `google` | `mock` runs against a scripted model, with no key |
+| `GUARD_URL` | none | The guard server. When set, a reading that fails a check is read again |
+| `PHOENIX_COLLECTOR_ENDPOINT` | none | A Phoenix to send traces to |
 
 The eval caches each answer in `eval/results/<model>/`, so a run that hits the free tier's per-minute limit can be resumed without spending the quota again.
 

@@ -1,0 +1,131 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "3126 0969 JDU9 6700 0173 5500 2000\n0729 0919 4342 9460",
+      "numero": 72909,
+      "serie": 2,
+      "dataEmissao": "2026-09-13",
+      "emitente": {
+        "nome": "Luiza Nogueira Alves",
+        "cnpj": "307.014.765-83",
+        "uf": "MG"
+      },
+      "destinatario": {
+        "nome": "Oficina Mecânica Dois Irmãos ME",
+        "documento": "RUA DAS FLORES, 120 - CENTRO\nMG - CEP 01000-000"
+      },
+      "itens": [
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 8,
+          "valorUnitario": 89,
+          "valorTotal": 712
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 2,
+          "valorUnitario": 89,
+          "valorTotal": 178
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 9,
+          "valorUnitario": 28.99,
+          "valorTotal": 260.91
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 7,
+          "valorUnitario": 19.99,
+          "valorTotal": 139.93
+        },
+        {
+          "descricao": "Arroz tipo 1 5kg",
+          "quantidade": 10,
+          "valorUnitario": 28.99,
+          "valorTotal": 289.9
+        },
+        {
+          "descricao": "Pilha AA c/ 4",
+          "quantidade": 3,
+          "valorUnitario": 19.99,
+          "valorTotal": 59.97
+        }
+      ],
+      "valorProdutos": 1640.71,
+      "valorFrete": 22.82,
+      "valorDesconto": 15.14,
+      "valorOutros": 0,
+      "valorTotal": 1648.39,
+      "uncertain": [
+        "CNPJ/CPF do destinatário",
+        "UF do destinatário"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "307.014.765-83 is not a valid CPF"
+      },
+      {
+        "paths": [
+          "destinatario.documento"
+        ],
+        "detail": "RUA DAS FLORES, 120 - CENTRO"
+      },
+      {
+        "paths": [
+          "destinatario.documento"
+        ],
+        "detail": "MG - CEP 01000-000 is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 69.JDU.967/0001-73"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 72909"
+      }
+    ],
+    "changed": [
+      "numero"
+    ],
+    "after": [
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "307.014.765-83 is not a valid CPF"
+      },
+      {
+        "paths": [
+          "destinatario.documento"
+        ],
+        "detail": "RUA DAS FLORES, 120 - CENTRO"
+      },
+      {
+        "paths": [
+          "destinatario.documento"
+        ],
+        "detail": "MG - CEP 01000-000 is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 69.JDU.967/0001-73"
+      }
+    ]
+  },
+  "ms": 7112
+}

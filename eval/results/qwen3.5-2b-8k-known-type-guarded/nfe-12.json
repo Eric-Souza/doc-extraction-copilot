@@ -1,0 +1,165 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "43260844318400000115550010000193561543905357",
+      "numero": 0,
+      "serie": 1,
+      "dataEmissao": "2026-08-17",
+      "emitente": {
+        "nome": "Clínica Bem Viver Ltda",
+        "cnpj": "4326084431840000011555001000",
+        "uf": "RS"
+      },
+      "destinatario": {
+        "nome": "Gustavo Lacerda Nogueira",
+        "documento": "601.923.320-07"
+      },
+      "itens": [
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 12,
+          "valorUnitario": 2,
+          "valorTotal": 44.68
+        },
+        {
+          "descricao": "Detergente 500ml",
+          "quantidade": 7,
+          "valorUnitario": 2,
+          "valorTotal": 20.23
+        },
+        {
+          "descricao": "Livro: Introdução à Estatística",
+          "quantidade": 11,
+          "valorUnitario": 89,
+          "valorTotal": 979
+        },
+        {
+          "descricao": "Café torrado 500g",
+          "quantidade": 5,
+          "valorUnitario": 18,
+          "valorTotal": 93.5
+        }
+      ],
+      "valorProdutos": 1127.41,
+      "valorFrete": 0,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 1127.41,
+      "uncertain": [
+        "CNPJ/CPF do destinatário",
+        "Data de emissão"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "4326084431840000011555001000 is not a valid CNPJ"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 44.318.400/0001-15"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 19356"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "12 × R$ 2,00 is R$ 24,00, not R$ 44,68"
+      },
+      {
+        "paths": [
+          "itens[1].quantidade",
+          "itens[1].valorUnitario",
+          "itens[1].valorTotal"
+        ],
+        "detail": "7 × R$ 2,00 is R$ 14,00, not R$ 20,23"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "5 × R$ 18,00 is R$ 90,00, not R$ 93,50"
+      },
+      {
+        "paths": [
+          "valorProdutos",
+          "itens[0].valorTotal",
+          "itens[1].valorTotal",
+          "itens[3].valorTotal"
+        ],
+        "detail": "the lines add up to R$ 1.137,41, not R$ 1.127,41"
+      }
+    ],
+    "changed": [],
+    "after": [
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "4326084431840000011555001000 is not a valid CNPJ"
+      },
+      {
+        "paths": [
+          "emitente.cnpj"
+        ],
+        "detail": "the access key says 44.318.400/0001-15"
+      },
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 19356"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "12 × R$ 2,00 is R$ 24,00, not R$ 44,68"
+      },
+      {
+        "paths": [
+          "itens[1].quantidade",
+          "itens[1].valorUnitario",
+          "itens[1].valorTotal"
+        ],
+        "detail": "7 × R$ 2,00 is R$ 14,00, not R$ 20,23"
+      },
+      {
+        "paths": [
+          "itens[3].quantidade",
+          "itens[3].valorUnitario",
+          "itens[3].valorTotal"
+        ],
+        "detail": "5 × R$ 18,00 is R$ 90,00, not R$ 93,50"
+      },
+      {
+        "paths": [
+          "valorProdutos",
+          "itens[0].valorTotal",
+          "itens[1].valorTotal",
+          "itens[3].valorTotal"
+        ],
+        "detail": "the lines add up to R$ 1.137,41, not R$ 1.127,41"
+      }
+    ]
+  },
+  "ms": 5877
+}

@@ -1,0 +1,66 @@
+{
+  "doc": {
+    "type": "boleto",
+    "data": {
+      "banco": "Banco Inter",
+      "beneficiario": "Oficina Mecânica Dois Irmãos ME",
+      "beneficiarioDocumento": "Oficina Mecânica Dois Irmãos ME",
+      "pagador": "Gustavo Lacerda Costa",
+      "pagadorDocumento": "Gustavo Lacerda Costa",
+      "linhaDigitavel": "07799.35568 85467.134418 13044.122664 3 16550000119445",
+      "vencimento": "2026-12-09",
+      "valor": 1194.45,
+      "nossoNumero": "",
+      "uncertain": [
+        "CPF/CNPJ do beneficiário: 32.420.191/0001-37",
+        "CPF/CNPJ do beneficiárioDocumento: 32.420.191/0001-37"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Oficina Mecânica Dois Irmãos ME is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Gustavo Lacerda Costa is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "09/12/2026 is not a date"
+      },
+      {
+        "paths": [
+          "vencimento"
+        ],
+        "detail": "the digit line says 2026-12-09"
+      }
+    ],
+    "changed": [
+      "vencimento"
+    ],
+    "after": [
+      {
+        "paths": [
+          "beneficiarioDocumento"
+        ],
+        "detail": "Oficina Mecânica Dois Irmãos ME is not a valid CPF or CNPJ"
+      },
+      {
+        "paths": [
+          "pagadorDocumento"
+        ],
+        "detail": "Gustavo Lacerda Costa is not a valid CPF or CNPJ"
+      }
+    ]
+  },
+  "ms": 3730
+}

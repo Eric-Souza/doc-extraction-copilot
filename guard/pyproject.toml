@@ -1,0 +1,18 @@
+[project]
+name = "guard"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "guardrails-ai[api]>=0.11",
+    "openinference-semantic-conventions>=0.1.43",
+    "opentelemetry-instrumentation-fastapi>=0.66b2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]

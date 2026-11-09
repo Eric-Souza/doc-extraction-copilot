@@ -1,0 +1,400 @@
+{
+  "model": "qwen3.5-2b-8k",
+  "knownType": false,
+  "classified": 12,
+  "documents": 36,
+  "fieldAccuracy": 0.09765625,
+  "exactMatch": 0,
+  "flagPrecision": 1,
+  "flagRecall": 0.03463203463203463,
+  "silentErrors": 669,
+  "flaggedFields": 24,
+  "totalFields": 768,
+  "perField": [
+    {
+      "name": "anoCalendario",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.cpf",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "beneficiario.nome",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "bens[].descricao",
+      "accuracy": 0,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAnterior",
+      "accuracy": 0,
+      "count": 24
+    },
+    {
+      "name": "bens[].saldoAtual",
+      "accuracy": 0,
+      "count": 24
+    },
+    {
+      "name": "chaveAcesso",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "dataEmissao",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "destinatario.documento",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "destinatario.nome",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "emitente.cnpj",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "emitente.nome",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "emitente.uf",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "exclusivos[].descricao",
+      "accuracy": 0,
+      "count": 23
+    },
+    {
+      "name": "exclusivos[].valor",
+      "accuracy": 0,
+      "count": 23
+    },
+    {
+      "name": "fontePagadora.cnpj",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "fontePagadora.nome",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "impostoRetido",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "isentos[].descricao",
+      "accuracy": 0,
+      "count": 31
+    },
+    {
+      "name": "isentos[].valor",
+      "accuracy": 0,
+      "count": 31
+    },
+    {
+      "name": "itens[].descricao",
+      "accuracy": 0,
+      "count": 54
+    },
+    {
+      "name": "itens[].quantidade",
+      "accuracy": 0,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorTotal",
+      "accuracy": 0,
+      "count": 54
+    },
+    {
+      "name": "itens[].valorUnitario",
+      "accuracy": 0,
+      "count": 54
+    },
+    {
+      "name": "numero",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "serie",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "totalExclusivos",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "totalIsentos",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "valorDesconto",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "valorFrete",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "valorOutros",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "valorProdutos",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "valorTotal",
+      "accuracy": 0,
+      "count": 12
+    },
+    {
+      "name": "vencimento",
+      "accuracy": 0.3333333333333333,
+      "count": 12
+    },
+    {
+      "name": "beneficiarioDocumento",
+      "accuracy": 0.5,
+      "count": 12
+    },
+    {
+      "name": "pagadorDocumento",
+      "accuracy": 0.5,
+      "count": 12
+    },
+    {
+      "name": "valor",
+      "accuracy": 0.5833333333333334,
+      "count": 12
+    },
+    {
+      "name": "nossoNumero",
+      "accuracy": 0.6666666666666666,
+      "count": 12
+    },
+    {
+      "name": "banco",
+      "accuracy": 0.8333333333333334,
+      "count": 12
+    },
+    {
+      "name": "pagador",
+      "accuracy": 0.8333333333333334,
+      "count": 12
+    },
+    {
+      "name": "beneficiario",
+      "accuracy": 1,
+      "count": 12
+    },
+    {
+      "name": "linhaDigitavel",
+      "accuracy": 1,
+      "count": 12
+    }
+  ],
+  "secondReadings": [
+    {
+      "id": "boleto-01",
+      "failed": 4,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "nossoNumero"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "nossoNumero"
+      ],
+      "broken": [],
+      "stillFailing": 2,
+      "planted": ""
+    },
+    {
+      "id": "boleto-02",
+      "failed": 3,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "broken": [],
+      "stillFailing": 1,
+      "planted": ""
+    },
+    {
+      "id": "boleto-03",
+      "failed": 4,
+      "changed": [
+        "vencimento"
+      ],
+      "fixed": [
+        "vencimento"
+      ],
+      "broken": [],
+      "stillFailing": 2,
+      "planted": ""
+    },
+    {
+      "id": "boleto-04",
+      "failed": 5,
+      "changed": [],
+      "fixed": [],
+      "broken": [],
+      "stillFailing": 5,
+      "planted": ""
+    },
+    {
+      "id": "boleto-05",
+      "failed": 4,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "nossoNumero"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "nossoNumero"
+      ],
+      "broken": [],
+      "stillFailing": 2,
+      "planted": ""
+    },
+    {
+      "id": "boleto-06",
+      "failed": 5,
+      "changed": [
+        "nossoNumero"
+      ],
+      "fixed": [
+        "nossoNumero"
+      ],
+      "broken": [],
+      "stillFailing": 5,
+      "planted": ""
+    },
+    {
+      "id": "boleto-07",
+      "failed": 4,
+      "changed": [
+        "vencimento"
+      ],
+      "fixed": [
+        "vencimento"
+      ],
+      "broken": [],
+      "stillFailing": 2,
+      "planted": ""
+    },
+    {
+      "id": "boleto-08",
+      "failed": 3,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "broken": [],
+      "stillFailing": 1,
+      "planted": ""
+    },
+    {
+      "id": "boleto-09",
+      "failed": 4,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "vencimento"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento",
+        "vencimento"
+      ],
+      "broken": [],
+      "stillFailing": 0,
+      "planted": ""
+    },
+    {
+      "id": "boleto-10",
+      "failed": 5,
+      "changed": [
+        "nossoNumero"
+      ],
+      "fixed": [
+        "nossoNumero"
+      ],
+      "broken": [],
+      "stillFailing": 5,
+      "planted": ""
+    },
+    {
+      "id": "boleto-11",
+      "failed": 5,
+      "changed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "fixed": [
+        "beneficiarioDocumento",
+        "pagadorDocumento"
+      ],
+      "broken": [],
+      "stillFailing": 3,
+      "planted": "misread"
+    },
+    {
+      "id": "boleto-12",
+      "failed": 5,
+      "changed": [
+        "vencimento",
+        "valor"
+      ],
+      "fixed": [
+        "vencimento"
+      ],
+      "broken": [
+        "valor"
+      ],
+      "stillFailing": 2,
+      "planted": "**changed**"
+    }
+  ]
+}

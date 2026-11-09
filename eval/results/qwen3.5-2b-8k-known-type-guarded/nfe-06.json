@@ -1,0 +1,90 @@
+{
+  "doc": {
+    "type": "nfe",
+    "data": {
+      "chaveAcesso": "26260811447906000175550010000921171258862022",
+      "numero": 0,
+      "serie": 1,
+      "dataEmissao": "2026-08-16",
+      "emitente": {
+        "nome": "Livraria Página Aberta Ltda",
+        "cnpj": "11.447.906/0001-75",
+        "uf": "PE"
+      },
+      "destinatario": {
+        "nome": "Mariana Alves Siqueira",
+        "documento": "838.803.282-85"
+      },
+      "itens": [
+        {
+          "descricao": "Papel sulfite A4 500 fls",
+          "quantidade": 10,
+          "valorUnitario": 27.45,
+          "valorTotal": 274.5
+        },
+        {
+          "descricao": "Cabo HDMI 2m",
+          "quantidade": 4,
+          "valorUnitario": 39.9,
+          "valorTotal": 159.6
+        },
+        {
+          "descricao": "Caderno universitário 10 matérias",
+          "quantidade": 9,
+          "valorUnitario": 24.9,
+          "valorTotal": 224.1
+        }
+      ],
+      "valorProdutos": 658.2,
+      "valorFrete": 38.01,
+      "valorDesconto": 0,
+      "valorOutros": 0,
+      "valorTotal": 696.21,
+      "uncertain": [
+        "NATUREZA DA OPERAÇÃO",
+        "CNPJ DO EMITENTE"
+      ]
+    }
+  },
+  "reask": {
+    "issues": [
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 92117"
+      },
+      {
+        "paths": [
+          "itens[0].quantidade",
+          "itens[0].valorUnitario",
+          "itens[0].valorTotal"
+        ],
+        "detail": "10 × R$ 27,00 is R$ 270,00, not R$ 274,50"
+      },
+      {
+        "paths": [
+          "valorProdutos",
+          "itens[0].valorTotal"
+        ],
+        "detail": "the lines add up to R$ 646,50, not R$ 658,20"
+      }
+    ],
+    "changed": [
+      "itens[0].valorUnitario",
+      "itens[1].valorUnitario",
+      "itens[1].valorTotal",
+      "itens[2].valorUnitario",
+      "itens[2].valorTotal"
+    ],
+    "after": [
+      {
+        "paths": [
+          "numero"
+        ],
+        "detail": "the access key says 92117"
+      }
+    ]
+  },
+  "ms": 5400
+}
