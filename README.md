@@ -36,11 +36,14 @@ When a total doesn't add up, the lines that already passed their own quantity ×
 |---|---|---|---|---|---|---|---|
 | `gemini-3.5-flash-lite` (default) | 99.9% | 97.2% | 100% | 100% | 0 | 6/6 | 5.4s |
 | `gemini-3.1-flash-lite` | 99.5% | 91.7% | 87.0% | 100% | 0 | 6/6 | 6.6s |
+| Qwen3.5-2B fine-tuned, on Ollama (`AI_PROVIDER=local`) | 99.7% | 94.4% | 100% | 100% | 0 | 6/6 | 4.2s |
+| Qwen3.5-2B base, on Ollama | 7.3% | 0.0% | 100% | 5.8% | 672 | 2/6 | 4.2s |
 
 - **Silent errors** are wrong fields that nobody was asked to look at. That is the number to keep at zero
 - A field *should* be flagged if the model read it wrong or if it is part of a planted inconsistency. **Precision** is how many of the flagged fields needed it, and **recall** is how many of the fields that needed it were flagged
 - The one misread with the default model was on a rotated photo of a utility boleto: it dropped a zero from a run of zeros (`83660000000-1` became `8366000000-1`). The digit line check caught it
 - Gemini 3.1 Flash Lite misread three NF-e access keys and one CNPJ; the check digits flagged all four. Its lower precision is from listing correct beneficiary CNPJs as uncertain, which sends them to review anyway
+- The 2B model runs on an 8 GB GPU. Out of the box it calls almost every document a boleto. Fine-tuned in [doc-extraction-finetune](https://github.com/Eric-Souza/doc-extraction-finetune) on 900 documents from this generator (other seeds), it misread one NF-e number and one access key, both flagged by the check digits. It has only seen these templates, so that is the case of training on your own layouts
 - The documents are synthetic and cleaner than real photos, so read these numbers as an upper bound. The full reports, with every wrong field, are in [`eval/results/`](eval/results)
 
 ![A phone-photo-style DANFE from the eval set](docs/photo-sample.jpg)
@@ -49,7 +52,7 @@ When a total doesn't add up, the lines that already passed their own quantity ×
 
 The checks also run as [Guardrails AI](https://github.com/guardrails-ai/guardrails) validators, in a small server in [`guard/`](guard). Each check is a custom validator (`br/document-id`, `br/digit-line`, `br/nfe-key`, `br/nfe-totals`, ...) on a Pydantic model per document type. When `GUARD_URL` is set, the API route sends each reading to the server's `/guards/{type}/validate`. If a check fails, the model gets the document again in the same conversation: its first answer, then the failed checks, with an instruction to re-read those fields digit by digit, keep a value the document really prints, and never change one just to make a check pass. The second reading is checked again, and the page says what it changed.
 
-- **One set of checks, two languages:** the browser still runs `review.ts`, which decides what you review. The guard decides whether to re-ask. A parity test (`guard/tests/test_parity.py`) runs the guard on 328 documents (the true values, planted errors included, and every cached model reading) and asserts that it flags exactly the fields `review.ts` flags. CI regenerates those fixtures and fails if they drift
+- **One set of checks, two languages:** the browser still runs `review.ts`, which decides what you review. The guard decides whether to re-ask. A parity test (`guard/tests/test_parity.py`) runs the guard on 400 documents (the true values, planted errors included, and every cached model reading) and asserts that it flags exactly the fields `review.ts` flags. CI regenerates those fixtures and fails if they drift
 - **Validators never fix a value:** they all use `on_fail="noop"`. A tampered boleto has to stay as printed, so the fix is the model's to make or not
 - **Fails open:** if the guard is down, the first reading is returned and the browser's checks still flag it
 
